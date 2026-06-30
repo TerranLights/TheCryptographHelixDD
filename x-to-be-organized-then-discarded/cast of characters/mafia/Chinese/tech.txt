@@ -1,0 +1,3 @@
+brainwave interfaces with SCN/TMN (STN) encryption
+
+suprachiasmatic nucleus (SCN) and tuberomamillary nucleus  (TMN) clock rhythms are used as the "private key"

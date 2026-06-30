@@ -1,0 +1,10 @@
+Czech		: Ideal Lover
+Russian		: Charismatic
+Ukrainian	: Dandy
+Colombian	: Star
+Mexican		: Natural
+Brazilian	: Siren
+Japanese	: Charmer
+Chinese		: Coquette
+
+Polish(?)	: (?)

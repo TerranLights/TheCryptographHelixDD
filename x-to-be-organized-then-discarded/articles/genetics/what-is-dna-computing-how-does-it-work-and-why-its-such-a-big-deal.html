@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0,  user-scalable=0' />
+
+    <title>What is DNA Computing, How Does it Work, and Why it's Such a Big Deal</title>
+    <meta name="description" content='Scientists at the University of California at Davis and Caltech have recently announced an exciting new breakthrough in DNA computing. But what is DNA computing anyway and how does it work?'>
+    <meta name="keywords" content="What is DNA computing">
+    <meta property="og:title" content="What is DNA Computing, How Does it Work, and Why it&#039;s Such a Big Deal" />
+    <meta property="og:description" content="Scientists at the University of California at Davis and Caltech have recently announced an exciting new breakthrough in DNA computing. But what is DNA computing anyway and how does it work?" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interestingengineering.com/what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal" />
+    <meta property="og:image" content="https://inteng-storage.s3.amazonaws.com/images/MARCH/sizes/DNAHelix_md.jpg" />
+    <meta property="og:image:alt" content="What is DNA Computing, How Does it Work, and Why it&#039;s Such a Big Deal" />
+    <meta property="fb:pages" content="139188202817559"/>
+    <meta property="fb:app_id" content="467815213795758"/>
+
+    <link rel="manifest" href="https://interestingengineering.com/manifest.json">
+
+    <link rel="apple-touch-icon" sizes="152x152" href="https://inteng-storage.s3.amazonaws.com/icons/apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://inteng-storage.s3.amazonaws.com/icons/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://inteng-storage.s3.amazonaws.com/icons/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://inteng-storage.s3.amazonaws.com/icons/apple-touch-icon-60x60-precomposed.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://inteng-storage.s3.amazonaws.com/icons/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://inteng-storage.s3.amazonaws.com/icons/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://inteng-storage.s3.amazonaws.com/icons/apple-touch-icon-114x114-precomposed.png">
+    <link rel="icon" sizes="128x128" href="https://inteng-storage.s3.amazonaws.com/icons/niceicon.png">
+    <link rel="icon" sizes="192x192" href="https://inteng-storage.s3.amazonaws.com/icons/nice-highres.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content='What is DNA Computing, How Does it Work, and Why it's Such a Big Deal'>
+    <meta name="application-name" content='What is DNA Computing, How Does it Work, and Why it's Such a Big Deal'>
+    <meta name="msapplication-TileColor" content="#3095be">
+    <meta name="msapplication-square70x70logo" content="https://inteng-storage.s3.amazonaws.com/icons/tiny.png">
+    <meta name="msapplication-square150x150logo" content="https://inteng-storage.s3.amazonaws.com/icons/square.png">
+    <meta name="msapplication-wide310x150logo" content="https://inteng-storage.s3.amazonaws.com/icons/widelogo.310x150.png">
+    <meta name="msapplication-square310x310logo" content="https://inteng-storage.s3.amazonaws.com/icons/large-win.png">
+    <meta name="theme-color" content="#3095be">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="hYAPs4oOCMgknVTq98zoclODWnwUvAHvNMqNRgdE">
+
+    <link rel="dns-prefetch" href="https://inteng-storage.s3.amazonaws.com">
+    
+    <link rel="dns-prefetch" href="https://www.google-analytics.com/">
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="https://stackpath.bootstrapcdn.com/">
+
+                    <link rel="dns-prefetch" href="https://ajax.cloudflare.com/">
+        <link rel="dns-prefetch" href="https://www.facebook.com/">
+        <link rel="dns-prefetch" href="https://connect.facebook.net/">
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com/">
+        <link rel="dns-prefetch" href="https://securepubads.g.doubleclick.net/">
+        <link rel="dns-prefetch" href="https://www.google-analytics.com/">
+        <link rel="dns-prefetch" href="https://www.googletagservices.com/">
+        <link rel="dns-prefetch" href="https://adserver-us.adtech.advertising.com/">
+        <link rel="dns-prefetch" href="https://hbopenbid.pubmatic.com/">
+        <link rel="dns-prefetch" href="https://www.stack-sonar.com/">
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+                <script data-ad-client="ca-pub-2984922455316380" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+        <!-- Quantcast Choice. Consent Manager Tag -->
+        <script type="text/javascript" async=true>
+            var elem = document.createElement('script');
+            elem.src = 'https://quantcast.mgr.consensu.org/cmp.js';
+            elem.async = true;
+            elem.type = "text/javascript";
+            var scpt = document.getElementsByTagName('script')[0];
+            scpt.parentNode.insertBefore(elem, scpt);
+            (function() {
+                var gdprAppliesGlobally = false;
+                function addFrame() {
+                    if (!window.frames['__cmpLocator']) {
+                        if (document.body) {
+                            var body = document.body,
+                                iframe = document.createElement('iframe');
+                            iframe.style = 'display:none';
+                            iframe.name = '__cmpLocator';
+                            body.appendChild(iframe);
+                        } else {
+                            // In the case where this stub is located in the head,
+                            // this allows us to inject the iframe more quickly than
+                            // relying on DOMContentLoaded or other events.
+                            setTimeout(addFrame, 5);
+                        }
+                    }
+                }
+                addFrame();
+                function cmpMsgHandler(event) {
+                    var msgIsString = typeof event.data === "string";
+                    var json;
+                    if(msgIsString) {
+                        json = event.data.indexOf("__cmpCall") != -1 ? JSON.parse(event.data) : {};
+                    } else {
+                        json = event.data;
+                    }
+                    if (json.__cmpCall) {
+                        var i = json.__cmpCall;
+                        window.__cmp(i.command, i.parameter, function(retValue, success) {
+                            var returnMsg = {"__cmpReturn": {
+                                    "returnValue": retValue,
+                                    "success": success,
+                                    "callId": i.callId
+                                }};
+                            event.source.postMessage(msgIsString ?
+                                JSON.stringify(returnMsg) : returnMsg, '*');
+                        });
+                    }
+                }
+                window.__cmp = function (c) {
+                    var b = arguments;
+                    if (!b.length) {
+                        return __cmp.a;
+                    }
+                    else if (b[0] === 'ping') {
+                        b[2]({"gdprAppliesGlobally": gdprAppliesGlobally,
+                            "cmpLoaded": false}, true);
+                    } else if (c == '__cmp')
+                        return false;
+                    else {
+                        if (typeof __cmp.a === 'undefined') {
+                            __cmp.a = [];
+                        }
+                        __cmp.a.push([].slice.apply(b));
+                    }
+                }
+                window.__cmp.gdprAppliesGlobally = gdprAppliesGlobally;
+                window.__cmp.msgHandler = cmpMsgHandler;
+                if (window.addEventListener) {
+                    window.addEventListener('message', cmpMsgHandler, false);
+                }
+                else {
+                    window.attachEvent('onmessage', cmpMsgHandler);
+                }
+            })();
+            window.__cmp('init', {
+                'Language': 'en',
+                'Initial Screen Reject Button Text': 'I do not accept',
+                'Initial Screen Accept Button Text': 'I accept',
+                'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
+                'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.',
+                'Vendor Screen Accept All Button Text': 'Accept all',
+                'Vendor Screen Reject All Button Text': 'Reject all',
+                'Initial Screen Body Text': 'We and our partners use technology such as cookies on our site to personalise content and ads, provide social media features, and analyse our traffic. Click below to consent to the use of this technology across the web. You can change your mind and change your consent choices at anytime by returning to this site.',
+                'Initial Screen Body Text Option': 1,
+                'Publisher Purpose IDs': [1,4],
+                'Custom Links Displayed on Initial Screen': ["[Privacy Policy](https://interestingengineering.com/privacy-policy)"],
+                'Consent Scope': 'service',
+                'Publisher Purpose Legitimate Interest IDs': [1,4],
+                'Publisher Name': 'Interesting Engineering',
+                'UI Layout': 'banner',
+                'Min Days Between UI Displays': 90,
+                                'Display UI': 'inEU',
+                'Default Value for Toggles': 'on',
+                                'No Option': false,
+            });
+        </script>
+        <!-- End Quantcast Choice. Consent Manager Tag -->
+        <style>
+            .qc-cmp-persistent-link {
+                display:none!important;
+            }
+            .qc-cmp-button.qc-cmp-secondary-button {
+                display:none!important;
+            }
+
+            @media (max-width: 400px) {
+                .qc-cmp-ui-content {
+                    padding: 10px!important;
+                }
+            }
+        </style>
+        <script src="https://assets.interestingengineering.com/assets/plugins/lazyload.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Open+Sans:400,600,700|PT+Sans|Pragati+Narrow:400,700" rel="stylesheet">
+
+    <link rel="alternate" type="application/atom+xml" href="https://interestingengineering.com/feed/atom" title="Interesting Engineering RSS Feed">
+    <!-- Styles -->
+    <link href="https://assets.interestingengineering.com/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <link href="https://assets.interestingengineering.com/assets/css/main.css?v=38" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="https://assets.interestingengineering.com/color.css?v=38" rel="stylesheet">
+    
+        <link href="https://assets.interestingengineering.com/assets/plugins/iziToast/dist/css/iziToast.min.css" rel="stylesheet">
+    <script src="https://assets.interestingengineering.com/assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","keywords":["news","tech news","engineering news","science news","innovation news"],"inLanguage":"en-US","publisher":{"@type":"Organization","name":"Interesting Engineering","url":"https:\/\/interestingengineering.com","description":"Interesting Engineering is a cutting edge, leading community designed for all lovers of engineering, technology and science.","logo":{"@type":"ImageObject","height":"192","width":"192","url":"https:\/\/inteng-storage.s3.amazonaws.com\/icons\/nice-highres.png"},"sameAs":["https:\/\/www.facebook.com\/interestingengineering","https:\/\/twitter.com\/IntEngineering","https:\/\/www.linkedin.com\/company\/interestingengineering\/","https:\/\/www.instagram.com\/interestingengineering\/","https:\/\/www.youtube.com\/channel\/UCEuiOszNd6msGgqsD0f9YAQ","https:\/\/intengineering.tumblr.com\/","https:\/\/t.me\/ieofficial","https:\/\/flipboard.com\/@intengineering"],"potentialAction":{"@type":"SearchAction","target":"https:\/\/interestingengineering.com\/s\/search?q={search_term_string}","query-input":"required name=search_term_string"}},"mainEntityOfPage":{"@type":"CollectionPage","id":"https:\/\/interestingengineering.com"}}</script>    <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","url":"https:\/\/interestingengineering.com\/what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal","dateCreated":"2019-03-21T03:08:00-04:00","datePublished":"2019-03-21T03:08:00-04:00","dateModified":"2019-03-21T12:33:01-04:00","keywords":["What is DNA computing"],"headline":"Scientists at the University of California at Davis and Caltech have recently announced an exciting new breakt","name":"What is DNA Computing, How Does it Work, and Why it's Such a Big Deal","description":"Scientists at the University of California at Davis and Caltech have recently announced an exciting new breakthrough in DNA computing. But what is DNA computing anyway and how does it work?","articleSection":"Innovation","image":{"@type":"ImageObject","height":"213","width":"500","url":"https:\/\/inteng-storage.s3.amazonaws.com\/images\/MARCH\/sizes\/DNAHelix_resize_md.jpg"},"publisher":{"@type":"Organization","name":"Interesting Engineering","url":"https:\/\/interestingengineering.com","description":"","logo":{"@type":"ImageObject","height":"389","width":"744","url":"https:\/\/inteng-storage.s3.amazonaws.com\/icons\/nice-highres.png"},"sameAs":["https:\/\/www.facebook.com\/interestingengineering","https:\/\/twitter.com\/IntEngineering","https:\/\/www.linkedin.com\/company\/interestingengineering\/","https:\/\/www.instagram.com\/interestingengineering\/","https:\/\/plus.google.com\/+Interestingengineeringofficial\/posts","https:\/\/www.youtube.com\/channel\/UCEuiOszNd6msGgqsD0f9YAQ","https:\/\/intengineering.tumblr.com\/","https:\/\/t.me\/ieofficial","https:\/\/flipboard.com\/@intengineering"]},"author":{"@type":"Person","name":"John Loeffler","url":"https:\/\/interestingengineering.com\/author\/john-loeffler"},"creator":{"@type":"Person","name":"John Loeffler","url":"https:\/\/interestingengineering.com\/author\/john-loeffler"},"speakable":{"@type":"SpeakableSpecification","cssSelector":[".content-title",".content-text"]},"mainEntityOfPage":{"@type":"WebPage","id":"https:\/\/interestingengineering.com\/what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal"}}</script>    <link rel="dns-prefetch" href="https://graph.facebook.net/">
+    <link rel="canonical" href="what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal.html" />
+
+    <link href="https://assets.interestingengineering.com/assets/plugins/jssocials/jssocials-theme-flat.css" rel="stylesheet">
+    <link href="https://assets.interestingengineering.com/assets/plugins/jssocials/jssocials.css" rel="stylesheet">
+    <script type="text/javascript">
+                var c = 0;
+            </script>
+            <script type="text/javascript" async="async" src="https://widgets.outbrain.com/outbrain.js"></script>
+        <meta property="og:image:width" content="864" />
+    <meta property="og:image:height" content="486" />
+
+    <meta property="article:published_time" content="2019-03-21T03:08:00-04:00" />
+    <meta property="article:modified_time" content="2019-03-21T12:33:01-04:00" />
+    <meta property="og:updated_time" content="2019-03-21T12:33:01-04:00" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@IntEngineering" />
+    <meta name="twitter:title" content="What is DNA Computing, How Does it Work, and Why it&#039;s Such a Big Deal" />
+    <meta name="twitter:description" content="Scientists at the University of California at Davis and Caltech have recently announced an exciting new breakthrough in DNA computing. But what is DNA computing anyway and how does it work?" />
+    <meta name="twitter:image" content="https://inteng-storage.s3.amazonaws.com/images/MARCH/sizes/DNAHelix_md.jpg" />
+    <meta name="twitter:creator" content="@IntEngineering">
+    
+    <link rel="amphtml" href="https://amp.interestingengineering.com/what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal">
+                            <script type="text/javascript" src="https://dsh7ky7308k4b.cloudfront.net/publishers/interestingengineeringcom.min.js"></script>
+            <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+            <script>
+                var googletag = googletag || {};
+                googletag.cmd = googletag.cmd || [];
+                var refreshSlots = [];
+                var target = [];
+                var refreshSlots2 = [];
+                var target2 = [];
+                var iasRefreshSlots = [];
+            
+                googletag.cmd.push(function () {
+                    if (window.innerWidth > 1013) {
+                        refreshSlots2.push(googletag.defineSlot('/8095840/.2_A.34957.7_interestingengineering.com_tier1', [[200, 446], [240, 400], [300, 250], [250, 360], [300, 600], [160, 600]], 'div-gpt-ad-right-column-sticky').addService(googletag.pubads()));
+                        target2.push('div-gpt-ad-right-column-sticky');
+                        googletag.defineSlot('/8095840/.2_A.35638.2_interestingengineering.com_tier1', [[120, 600], [160, 600]], 'div-gpt-ad-interestingeng35638').addService(googletag.pubads());
+                        target.push('div-gpt-ad-interestingeng35638');
+                        refreshSlots.push(googletag.defineSlot('/8095840/.2_A.34952.3_interestingengineering.com_tier1', [[750, 300], [728, 90], [750, 200], [980, 90], [750, 100], [960, 90], [930, 180], [970, 90], [970, 250], [950, 90]], 'div-gpt-ad-billboard').addService(googletag.pubads()));
+                        target.push('div-gpt-ad-billboard');
+                        refreshSlots.push(googletag.defineSlot('/8095840/.2_A.34956.4_interestingengineering.com_tier1', [[250, 250], [300, 250]], 'div-gpt-ad-right-top').addService(googletag.pubads()));
+                        target.push('div-gpt-ad-right-top');
+                        refreshSlots.push(googletag.defineSlot('/8095840/.2_A.35026.4_interestingengineering.com_tier1', [[250, 250], [300, 250]], 'div-gpt-ad-article-bottom').addService(googletag.pubads()));
+                        target.push('div-gpt-ad-article-bottom');
+            
+                    }
+                    else {
+                        refreshSlots.push(googletag.defineSlot('/8095840/.2_A.34958.5_interestingengineering.com_tier1', [[300, 50], [300, 100], [320, 100], [320, 50], [300, 250], [336, 280]], 'div-gpt-ad-abstract').addService(googletag.pubads()));
+                        target.push('div-gpt-ad-abstract');
+                        refreshSlots.push(googletag.defineSlot('/8095840/.2_A.34959.4_interestingengineering.com_tier1', [[300, 50], [300, 100], [320, 100], [320, 50], [300, 250], [336, 280]], 'div-gpt-ad-in-article-0').addService(googletag.pubads()));
+                        target.push('div-gpt-ad-in-article-0');
+                        refreshSlots.push(googletag.defineSlot('/8095840/.2_A.34960.4_interestingengineering.com_tier1', [[300, 50], [300, 100], [320, 100], [320, 50], [300, 250], [336, 280]], 'div-gpt-ad-in-article-1').addService(googletag.pubads()));
+                        target.push('div-gpt-ad-in-article-1');
+                        refreshSlots.push(googletag.defineSlot('/8095840/.2_A.34968.4_interestingengineering.com_tier1', [[300, 50], [300, 100], [320, 100], [320, 50], [300, 250], [336, 280]], 'div-gpt-ad-in-article-2').addService(googletag.pubads()));
+                        target.push('div-gpt-ad-in-article-2');
+                        refreshSlots.push(googletag.defineSlot('/8095840/.2_A.34969.4_interestingengineering.com_tier1', [[300, 50], [300, 100], [320, 100], [320, 50], [300, 250], [336, 280]], 'div-gpt-ad-in-article-3').addService(googletag.pubads()));
+                        target.push('div-gpt-ad-in-article-3');
+                        refreshSlots.push(googletag.defineSlot('/8095840/.2_A.34970.5_interestingengineering.com_tier1', [[300, 50], [300, 100], [320, 100], [320, 50], [300, 250], [336, 280]], 'div-gpt-ad-in-article-4').addService(googletag.pubads()));
+                        target.push('div-gpt-ad-in-article-4');
+                        refreshSlots.push(googletag.defineSlot('/8095840/.2_A.34971.5_interestingengineering.com_tier1', [[300, 50], [300, 100], [320, 100], [320, 50], [300, 250], [336, 280]], 'div-gpt-ad-in-article-5').addService(googletag.pubads()));
+                        target.push('div-gpt-ad-in-article-5');
+                        refreshSlots.push(googletag.defineSlot('/8095840/.2_A.34972.5_interestingengineering.com_tier1', [[300, 50], [300, 100], [320, 100], [320, 50], [300, 250], [336, 280]], 'div-gpt-ad-in-article-6').addService(googletag.pubads()));
+                        target.push('div-gpt-ad-in-article-6');
+            
+                        refreshSlots.push(googletag.defineSlot('/8095840/.2_A.35026.4_interestingengineering.com_tier1', [[250, 250], [300, 250]], 'div-gpt-ad-article-bottom').addService(googletag.pubads()));
+                        target.push('div-gpt-ad-article-bottom');
+                    }
+                    setInterval(function RefreshBids() {
+                        console.log('Refresh Bids Initialized');
+                        pbjs.que.push(function () {
+                            pbjs.requestBids({
+                                timeout: PREBID_TIMEOUT,
+                                adUnitCodes: target,
+                                bidsBackHandler: function () {
+                                    console.log('RefreshBids.bidsBackHandler', refreshSlots);
+                                    pbjs.setTargetingForGPTAsync(target);
+                                }
+                            })
+                        }),
+                        apstag.fetchBids({
+                            slots: [{
+                                slotID: 'div-gpt-ad-billboard',
+                                slotName: '/8095840/.2_A.34952.3_interestingengineering.com_tier1',
+                                sizes: [[728, 90]]
+                            }, {
+                                slotID: 'div-gpt-ad-right-top',
+                                slotName: '/8095840/.2_A.34956.4_interestingengineering.com_tier1',
+                                sizes: [[300, 250]]
+                            }, {
+                                slotID: 'div-gpt-ad-article-bottom',
+                                slotName: '/8095840/.2_A.35026.4_interestingengineering.com_tier1',
+                                sizes: [[300, 250]]
+                            }, {
+                                slotID: 'div-gpt-ad-abstract',
+                                slotName: '/8095840/.2_A.34958.5_interestingengineering.com_tier1',
+                                sizes: [[320, 50]]
+                            }, {
+                                slotID: 'div-gpt-ad-in-article-0',
+                                slotName: '/8095840/.2_A.34959.4_interestingengineering.com_tier1',
+                                sizes: [[300, 250]]
+                            }, {
+                                slotID: 'div-gpt-ad-in-article-1',
+                                slotName: '/8095840/.2_A.34960.4_interestingengineering.com_tier1',
+                                sizes: [[300, 250]]
+                            }, {
+                                slotID: 'div-gpt-ad-in-article-2',
+                                slotName: '/8095840/.2_A.34968.4_interestingengineering.com_tier1',
+                                sizes: [[300, 250]]
+                            }, {
+                                slotID: 'div-gpt-ad-in-article-3',
+                                slotName: '/8095840/.2_A.34969.4_interestingengineering.com_tier1',
+                                sizes: [[300, 250]]
+                            }, {
+                                slotID: 'div-gpt-ad-in-article-4',
+                                slotName: '/8095840/.2_A.34970.5_interestingengineering.com_tier1',
+                                sizes: [[320, 50]]
+                            }, {
+                                slotID: 'div-gpt-ad-in-article-5',
+                                slotName: '/8095840/.2_A.34971.5_interestingengineering.com_tier1',
+                                sizes: [[320, 50]]
+                            }, {
+                                slotID: 'div-gpt-ad-in-article-6',
+                                slotName: '/8095840/.2_A.34972.5_interestingengineering.com_tier1',
+                                sizes: [[320, 50]]
+                            }],
+                            timeout: PREBID_TIMEOUT,
+                            }, function (bids) {
+                                apstag.setDisplayBids();
+                            }),
+                            console.log('Refresh Ads');
+                        googletag.pubads().refresh(refreshSlots);
+                    }, 90000);
+                    setInterval(function RefreshBids2() {
+                        console.log('Refresh Bids2 Initialized');
+                        pbjs.que.push(function () {
+                            pbjs.requestBids({
+                                timeout: PREBID_TIMEOUT,
+                                adUnitCodes: target2,
+                                bidsBackHandler: function () {
+                                    console.log('RefreshBids.bidsBackHandler 2', refreshSlots2);
+                                    pbjs.setTargetingForGPTAsync(target2);
+                                }
+                            })
+                        }),
+                        apstag.fetchBids({
+                            slots: [{
+                                slotID: 'div-gpt-ad-right-column-sticky',
+                                slotName: '/8095840/.2_A.34957.7_interestingengineering.com_tier1',
+                                sizes: [[300, 600]]
+                            }],
+                            timeout: PREBID_TIMEOUT,
+                            }, function (bids) {
+                                apstag.setDisplayBids();
+                            }),
+                            console.log('Refresh Ads');
+                        googletag.pubads().refresh(refreshSlots2);
+                    }, 60000);
+                    googletag.enableServices();
+                });
+            </script>
+                <!-- Scripts -->
+    <script>
+        window.ie = {"csrfToken":"hYAPs4oOCMgknVTq98zoclODWnwUvAHvNMqNRgdE"};
+        url = 'https://interestingengineering.com/what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal';
+
+            </script>
+            <script>
+            (function (s,o,n,a,r,i,z,e) {s['StackSonarObject']=r;s[r]=s[r]||function(){
+                (s[r].q=s[r].q||[]).push(arguments)},s[r].l=1*new Date();i=o.createElement(n),
+                z=o.getElementsByTagName(n)[0];i.async=1;i.src=a;z.parentNode.insertBefore(i,z)
+            })(window,document,'script','https://www.stack-sonar.com/ping.js','stackSonar');
+
+            stackSonar('stack-connect-p', '285');
+        </script>
+                <!-- Google Tag Manager -->
+<script>
+    var dataLayer = [{
+                'irefID': "IEA358768",
+                'iauthor': "John Loeffler",
+                'icat1': "Innovation",
+                'icat2': "",
+                'iseocontent': "1",
+                'iparagraphcount': "33",
+                'iwordcount': "1938",
+                'ilogin': "0",
+                'ipublishdate': "20190321",
+                'ipublishtime': "03:08:00",
+                'itag': "What is DNA computing",
+                'ifromurl': "https://interestingengineering.com",
+                'ipagetype': "detail",
+                'ibrand': "",
+                'ifotocount': "6",
+                'ivideocount': "",
+                'iAdblockStatus': "0",
+            }];
+</script>
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MM4VBX4');
+</script>
+<!-- End Google Tag Manager -->
+            <!-- Yandex Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(53308081, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/53308081" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        </head>
+<body class="header-bar">
+<div id="pg-wp">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MM4VBX4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+        <!-- Fixed navbar -->
+    <header id="header" class="navbar-fixed-top">
+        
+        <nav class="navbar navbar-default" role="navigation" id="slide-nav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" id="nav-icon" name="Navigation" aria-label="Navigation" class="navbar-toggle collapsed text-hide">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand text-hide" title="Interesting Engineering" href="https://interestingengineering.com">Interesting Engineering</a>
+                </div>
+                <div id="slidemenu" aria-expanded="true">
+                                                                <ul class="nav navbar-nav main-nav"><li><a href="https://interestingengineering.com/news"><span>News</span></a></li><li class="active"><a href="https://interestingengineering.com/innovation"><span>Innovation</span></a><span class="color-innovation"></span></li><li><a href="https://interestingengineering.com/science"><span>Science</span></a></li><li><a href="https://interestingengineering.com/industry"><span>Industry</span></a></li><li><a href="https://interestingengineering.com/how-to"><span>How-to</span></a></li><li><a href="https://interestingengineering.com/video"><span><i class="fa fa-play menu-sign" aria-hidden="true">&nbsp;</i>Videos</span></a></li><li><a href="https://shop.interestingengineering.com" target="_self"><span><i class="fa fa-shopping-cart menu-sign" aria-hidden="true">&nbsp;</i>Shop</span></a></li><li class="dropdown"><a href="what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false">More <i class="fa fa-chevron-down menu-caret" aria-hidden="true"></i></a><ul class="dropdown-menu"><li><a href="https://interestingengineering.com/architecture"><span>Architecture</span></a></li><li><a href="https://interestingengineering.com/design"><span>Design</span></a></li><li><a href="https://interestingengineering.com/culture"><span>Culture</span></a></li><li><a href="https://interestingengineering.com/entertainment"><span>Entertainment</span></a></li><li><a href="https://interestingengineering.com/business"><span>Business</span></a></li><li><a href="https://interestingengineering.com/internet"><span>Internet</span></a></li><li><a href="https://interestingengineering.com/blockchain"><span>Blockchain</span></a></li><li><a href="https://interestingengineering.com/events"><span>Events</span></a></li><li><a href="https://interestingengineering.com/jobs"><span>Jobs</span></a></li></ul></li></ul>
+                                    </div>
+                <div class="visible-lg-block visible-md-block gradient"></div>
+                <div id="sidebar">
+                    <div id="sidemenu">
+                        
+                            
+                            
+                            
+                            
+                                
+                                
+                                    
+                                    
+                                                     
+                                            
+                                        
+                                        
+                                            
+                                        
+                                
+
+                            
+                            
+                        
+                        <ul class="nav navbar-nav navbar-right socialmenu">
+                            <li class="divider-vertical visible-md-inline-block visible-lg-inline-block"></li>
+                            <li><a href="https://www.facebook.com/interestingengineering" target="_blank" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/IntEngineering" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCEuiOszNd6msGgqsD0f9YAQ" target="_blank" title="Youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/interestingengineering/" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/interestingengineering/" target="_blank" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://interestingengineering.com/feed" target="_blank" title="Rss"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                            <li><a href="https://t.me/ieofficial" target="_blank" title="Telegram"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                            <li class="hidden-md hidden-lg"><a href="https://flipboard.com/@intengineering" title="Flipboard" class="icon-flipboard-white"></a></li>
+                            <li class="hidden-sm hidden-xs"><a href="https://flipboard.com/@intengineering" title="Flipboard" class="icon-flipboard"></a></li>
+                            <li>&nbsp;&nbsp;&nbsp;</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="mobile-menu">
+                        <form id="search" class="header-box" action="https://interestingengineering.com/s/search">
+                            <button class="search-button" type="submit" aria-label="Search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            <input type="search" name="q" id="search-input" placeholder="Search">
+                            <button class="search-toggle-button" aria-label="Search Toggle" type="button" name="search-toggle"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                        
+                        
+                        
+                        
+                            
+                               
+                                                     
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+            <div class="category-bar clearfix color-innovation  with-sub-category ">
+        <div class="category-name color-innovation">
+            <a href="https://interestingengineering.com/innovation">Innovation</a>
+        </div>
+                    <div class="sub-category-list">
+                <div class="controls">
+                    <button class="prevPage disabled" disabled=""><i class="fa fa-chevron-left"></i></button>
+                    <button class="nextPage"><i class="fa fa-chevron-right"></i></button>
+                </div>
+                <nav class="category-menu simple-nav">
+                    <ol>
+                                                    <li>
+                                <a href="https://interestingengineering.com/cryptocurrencies"><span>Cryptocurrencies</span></a>
+                            </li>
+                                                    <li>
+                                <a href="https://interestingengineering.com/ai"><span>AI</span></a>
+                            </li>
+                                                    <li>
+                                <a href="https://interestingengineering.com/robotics"><span>Robotics</span></a>
+                            </li>
+                                                    <li>
+                                <a href="https://interestingengineering.com/3d-technologies"><span>3D Technologies</span></a>
+                            </li>
+                                                    <li>
+                                <a href="https://interestingengineering.com/wearables"><span>Wearables</span></a>
+                            </li>
+                                                    <li>
+                                <a href="https://interestingengineering.com/nanotechnology"><span>Nanotechnology</span></a>
+                            </li>
+                                                    <li>
+                                <a href="https://interestingengineering.com/vrar"><span>VR/AR</span></a>
+                            </li>
+                                                    <li>
+                                <a href="https://interestingengineering.com/autonomous-cars"><span>Autonomous Cars</span></a>
+                            </li>
+                                                    <li>
+                                <a href="https://interestingengineering.com/drones"><span>Drones</span></a>
+                            </li>
+                                                    <li>
+                                <a href="https://interestingengineering.com/gadgets"><span>Gadgets</span></a>
+                            </li>
+                                                    <li>
+                                <a href="https://interestingengineering.com/inventions-and-machines"><span>Inventions and Machines</span></a>
+                            </li>
+                                                    <li>
+                                <a href="https://interestingengineering.com/smart-speakers"><span>Smart Speakers</span></a>
+                            </li>
+                                                <li>&nbsp;</li>
+                    </ol>
+                </nav>
+            </div>
+            </div>
+
+    <div id="navbar-height-col" style="left: -248px;"></div>
+    </header>
+    <div class="overlay"></div>
+    <main id="page-content">
+
+                <div class="ias-push">
+        <div class="hidden">358768</div>
+        <div class="ias-push-item">
+                                                <script>
+                        var gtmData = "";
+                    </script>
+                                                                            <!-- div-gpt-ad-billboard -->
+                        <div class="adW clearfix banner">
+                            <div class="adC spBg">
+                                <span class="adL">Advertisement</span>
+                                <div class="adA hidden-sm hidden-xs" id="div-gpt-ad-billboard">
+                                    <script>
+                                        googletag.cmd.push(function() { googletag.display('div-gpt-ad-billboard'); });
+                                    </script>
+                                </div>
+                                <div class="adA hidden-md" id="div-gpt-ad-abstract">
+                                    <script>
+                                        googletag.cmd.push(function() { googletag.display('div-gpt-ad-abstract'); });
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                                        <div class="content-wrp container row clearfix">
+                                                            <div id="sticky__sidebar">
+                            <div class="adW sidebar__inner">
+                                <div class="adC spBg">
+                                    <span class="adL">Advertisement</span>
+                                    <!-- left-column-sticky -->
+                                    <div class="adA" id='div-gpt-ad-interestingeng35638'>
+                                        <script>
+                                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-interestingeng35638'); });
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                    <div class="content-header column-left">
+                    <div class="content-category clearfix">
+                        <div class="category-title-light small pull-left text-uppercase">
+                            <ol class="simple-nav">
+                                                                                                        <li>
+                                        <a href="https://interestingengineering.com/innovation">
+                                            <span>Innovation</span>
+                                        </a>
+                                    </li>
+                                                                                                </ol>
+                            <span class="color-innovation"></span>
+                        </div>
+                                            </div>
+                    <h1 class="content-title" data-url="https://interestingengineering.com/what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal" data-id="what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal">What is DNA Computing, How Does it Work, and Why it&#039;s Such a Big Deal</h1>
+                    <p class="content-sub-title">Scientists are making steady progress in DNA computing, but what is DNA computing and how does it work?</p>
+                    
+                        
+                        
+                            
+                                
+                                
+                            
+                            
+                                 
+                                 
+                            
+                                
+                            
+                        
+                        
+                        
+                            
+                                
+                                
+                            
+                            
+                            
+                            
+                        
+                        
+                        
+                        
+                            
+                                
+                                
+                                    
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                    <section class="content">
+                        <div class="content-tag tag-top border-bottom gray-border">
+                            <div class="post-tag">
+                                                                <a class="clearfix pull-left" href="https://interestingengineering.com/author/john-loeffler" rel="author">
+                                    <img nopin="nopin" src="https://inteng-storage.s3.amazonaws.com/avatars/li5LQlfqeUGZ_thumb.jpg" alt="John Loeffler" class="hidden-xs img-circle">
+                                </a>
+                                                                <div class="clearfix">
+                                    <span>By&nbsp;</span>
+                                                                            <a href="https://interestingengineering.com/author/john-loeffler" rel="author">John Loeffler</a>
+                                    
+                                </div>
+                                <span>March 21, 2019</span>
+                            </div>
+                            <div class="content-share pull-right">
+                                <div id="share1_0" class="share-buttons pull-left"></div>
+                                
+                                    
+                                    
+                                
+                                                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <article class="content clearfix">
+                                                        <div class="content-image">
+                                <picture>
+                                    <img class="img-responsive" src="https://inteng-storage.s3.amazonaws.com/images/MARCH/sizes/DNAHelix_resize_md.jpg" alt="What is DNA Computing, How Does it Work, and Why it&#039;s Such a Big Deal">
+                                </picture>
+                                <div class="image-info row clearfix">
+                                    
+                                                                        <span class="pull-right"><a class="" href="https://pixabay.com/illustrations/microbiology-dna-people-structure-163521/" rel="nofollow">Pixabay</a></span>
+                                                                    </div>
+                            </div>
+                                                        <div class="content-text clearfix">
+                                <p id="p-0"><span>For the past decade, engineers have come up against the harsh reality of physics in the pursuit of more powerful computers: transistors, the </span><span>on-off switches that power the computer processor,</span><span> cannot be made any smaller than they currently are. Looking beyond the silicon chip, an intuitive alternative is currently being developed using </span><span>DNA to perform the same kinds of complex calculations that silicon transistors do now. But what is DNA computing, how does DNA computing work, and why is it such a big deal?</span></p>
+<h2><span>Beyond The Transistor</span><span></span></h2>
+<figure class="image"><picture><img class="img-responsive" title="IC-Chip" src="https://inteng-storage.s3.amazonaws.com/images/MARCH/sizes/IC-Chip_resize_md.jpg" alt="IC Chip" width="1200" height="628" nopin="nopin"></picture>
+<figcaption>Source: <span><a href="https://www.flickr.com/photos/130561288@N04/39825270521" rel="nofollow" class="underline border-color-innovation" target="_blank">Fritzchens Fritz / Flickr</a></span></figcaption>
+</figure>
+<p id="p-1"><span>The issue with transistors is that they now exist at the scale of a few nanometers in size&mdash;only a few silicon atoms thick. They can't practically be made any smaller than they are now. </span></p>
+<p id="p-2"><span>If they get any smaller, the electrical current flowing through the transistor easily leaks out into other components nearby or deforms the transistor due to heat, rendering it useless. You need a minimum number of atoms to make the transistor work and we've functionally <a class="underline border-color-innovation" href="https://interestingengineering.com/no-more-transistors-the-end-of-moores-law" rel="dofollow" target="_blank">reached that limit</a>.<br></span></p><div class="embed-ad" id="ad-2"><div class="vad-player"><script type="text/javascript">if(screen.width > 1013) var cntToken = "81732372-1ded-4ad7-b268-dfccea801c59"; else var cntToken = "7f63fa74-d84c-4dae-8baf-57acf644c4fd";var connatixScript = document.createElement('script'); connatixScript.async = true; connatixScript.setAttribute('async','true');connatixScript.setAttribute('data-connatix-token',cntToken); connatixScript.type = 'text/javascript'; connatixScript.src = 'https://cdn.connatix.com/min/connatix.renderer.infeed.min.js'; var currentScript = document.currentScript || document.scripts[document.scripts.length - 1]; currentScript.parentNode.insertBefore(connatixScript, currentScript.nextSibling);</script></div></div>
+<p id="p-3"><span>Engineers have found some work-arounds for this problem by using multicore and multiprocessing systems to increase computational power without having to shrink the transistors further, but this too comes with trade offs in terms of programming challenges and power requirements, so another solution is needed if we hope to see more powerful computers in the future.</span></p>
+<p class="clearfix" id="p-4"><a class="underline border-color-innovation" href="https://interestingengineering.com/cognitive-computing-more-human-than-artificial-intelligence" rel="dofollow" target="_blank"><strong>SEE ALSO: COGNITIVE COMPUTING: MORE HUMAN THAN ARTIFICIAL INTELLIGENCE</strong></a></p>
+<p id="p-5"><span> While <a class="underline border-color-innovation" href="https://interestingengineering.com/ibm-introduces-first-integrated-quantum-computing-system-for-commercial-use" rel="dofollow" target="_blank">quantum computing</a> is getting a lot of press lately, DNA computing can be just as&mdash;or even more&mdash;powerful than even quantum computing and it doesn&rsquo;t run into nearly as many of the stability constraints that quantum computing has. Plus, we know it works; we ourselves are living examples of the data storage and computational power of DNA computing.</span></p><div class="embed-ad" id="ad-5"><div class="OUTBRAIN standard-margin text-left" data-widget-id="GS_4" data-src="https://interestingengineering.com/what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal" data-ob-template="InterestingEngineering"></div></div>
+<p id="p-6"><span>The challenge for DNA computing is that compared to classical computing, it is achingly slow. Evolution has had hundreds of millions of years to develop the complicated sequence of DNA that exists inside each and every one of our cells so that DNA is used to working according to geological timescales, not the multiple gigahertz of modern classical processors.</span></p>
+<p id="p-7"><span>So how does DNA computing work then and why are we pursuing it if it&rsquo;s so slow? </span></p>
+<h2><span>What Is DNA Computing, How Does It Work And Why Is It Such A Big Deal?</span></h2>
+<figure class="image"><picture><img class="img-responsive" title="DNA-Helix" src="https://inteng-storage.s3.amazonaws.com/images/MARCH/sizes/DNA_helix_resize_md.jpg" alt="DNA Helix" width="1200" height="628" nopin="nopin"></picture>
+<figcaption>Source: <a class="underline border-color-innovation" href="https://pixabay.com/illustrations/dna-microscopic-cell-gene-helix-1903318/" rel="nofollow" target="_blank">Pixabay</a></figcaption>
+</figure>
+<h2>&nbsp;</h2>
+<p id="p-8"><span>To understand what DNA computing is, how it works and why DNA computing is such a big deal, first we need to stop thinking about it as some kind of replacement for our everyday classical computer use; we won&rsquo;t be playing games on a DNA computer any time soon, if such a thing were even possible. Silicon chips will be with us for a very long time yet. </span></p><div class="embed-ad" id="ad-8"><div class="adW inline_ad"><div class="adC spBg"><span class="adL">Advertisement</span><div class="adA" id="div-gpt-ad-in-article-0"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-in-article-0'); });</script></div></div></div></div>
+<p id="p-9"><span>DNA computing is what we would use to solve problems beyond the scope of what a classical computer can solve, the same way quantum computing can break RSA encryption in moments while it might take a classical computer thousands of years to do the same.</span></p>
+<p id="p-10"><span>DNA computing was first described in 1994 by computer scientist Leonard Adleman of the University of Southern California. After reading up on the structure of DNA, he was inspired to write a paper in the journal <em>Science</em> showing how you could use DNA to an infamous mathematical and computer science problem known as the directed Hamilton Path problem, commonly called the &ldquo;traveling salesman&rdquo; problem (though the Hamilton Path problem is <a class="underline border-color-innovation" href="https://stackoverflow.com/questions/7763432/what-is-the-difference-between-travelling-salesman-and-finding-shortest-path" rel="nofollow" target="_blank">slightly different</a> version of the traveling salesaman problem, for our purposes they are essentially interchangable).<br></span></p><div class="embed-ad" id="ad-10"><div class="adW inline_ad"><div class="adC spBg"><span class="adL">Advertisement</span><div class="adA" id="div-gpt-ad-in-article-1"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-in-article-1'); });</script></div></div></div></div>
+<h2><span>What Is The Traveling Salesman Problem?</span></h2>
+<figure class="image"><picture><img class="img-responsive" title="Traveling-Salesman" src="https://inteng-storage.s3.amazonaws.com/images/MARCH/sizes/Traveling-Salesman_resize_md.jpg" alt="Traveling Salesman" width="1200" height="628" nopin="nopin"></picture>
+<figcaption>Source: <a class="underline border-color-innovation" href="https://barnimages.com/flying-airplane/" rel="nofollow" target="_blank">BarnImages</a></figcaption>
+</figure>
+<p id="p-11"><span>As the traveling salesman problem defines it, a company has a salesman that must visit <strong><em>n</em></strong> number of cities making calls and can only visit each city once. What sequence of visited cities provides the shortest, and therefore the cheapest, path?</span></p>
+<p id="p-12"><span>When <strong><em>n</em></strong> equals 5, the problem can be worked out by hand on a piece of paper and a classical computer can test every possible path relatively quickly. But what if <strong><em>n</em></strong> equals 20? Finding the shortest path through 20 cities becomes much more computationally difficult and it would take a classical computer exponentially longer to find the answer.</span></p>
+<p id="p-13"><span>Try to find the shortest path between 500 cities and it would take a classical computer longer than the entire lifetime of the Universe to find the shortest path since the only way to verify that we have found the shortest path is to check every single permutation of cities. Some algorithms exist using dynamic computing that can theoretically reduce the number of checks required (and the actual Hamilton Path problem doesn't require checking every node in a graph), but that might shave a few million years off the top; the problem will still be all but computationally impossible on a classical computer.<br></span></p><div class="embed-ad" id="ad-13"><div class="adW inline_ad"><div class="adC spBg"><span class="adL">Advertisement</span><div class="adA" id="div-gpt-ad-in-article-2"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-in-article-2'); });</script></div></div></div></div>
+<h2><span>How DNA Computing Solves This Problem</span></h2>
+<figure class="image"><picture><img class="img-responsive" title="DNA-Helix" src="https://inteng-storage.s3.amazonaws.com/images/MARCH/sizes/DNA-Helix_resize_md.jpg" alt="DNA Helix" width="1200" height="628" nopin="nopin"></picture>
+<figcaption>Source: <a class="underline border-color-innovation" href="https://www.flickr.com/photos/nihgov/20468181866/in/album-72157656657569008/" rel="nofollow" target="_blank">NIH / Flickr</a></figcaption>
+</figure>
+<p id="p-14"><span>What Adleman was able to demonstrate [<a class="underline border-color-innovation" href="http://152.2.128.56/~montek/teaching/Comp790-Fall11/Home/Home_files/Adleman-ScAm94.pdf" rel="nofollow" target="_blank">PDF</a>] is that DNA can be assembled in such a way that a test tube full of DNA blocks could assemble themselves to encode all of the possible paths in the traveling salesman problem at the same time. </span></p>
+<p id="p-15"><span>In DNA, genetic coding is represented by four different molecules, called A, T, C, and G. These four &ldquo;bits&rdquo;, when chained together, can hold an incredible amount of data. After all, the human genome is encoded in something that can be packed into a single nucleus of a cell.</span></p>
+<p id="p-16"><span>By mixing these four molecules into a test tube, the molecules naturally assembled themselves into strands of DNA. If some combination of these molecules represents a city and a flight path, each strand of DNA could represent a different flight path for the salesman, all being calculated at once in the synthesis of the DNA strands assembling themselves in parallel. <br></span></p><div class="embed-ad" id="ad-16"><div class="adW inline_ad"><div class="adC spBg"><span class="adL">Advertisement</span><div class="adA" id="div-gpt-ad-in-article-3"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-in-article-3'); });</script></div></div></div></div>
+<p id="p-17"><span>Then, it would simply be a matter of filtering out the longer paths until you have only the shortest path left. In his paper, he showed how this could be done with 7 cities and the solution to the problem would be encoded as soon as the DNA strands were synthesized.</span></p>
+<figure class="image"><picture><img class="img-responsive" title="DNA-Computing" src="https://inteng-storage.s3.amazonaws.com/images/MARCH/sizes/DNA-Computing_resize_md.jpg" alt="DNA Computing" width="1200" height="628" nopin="nopin"></picture>
+<figcaption>Source: <a class="underline border-color-innovation" href="https://depositphotos.com/184222868/stock-photo-dna-computing-abstract-illustration.html" rel="nofollow" target="_blank">DepositPhotos</a></figcaption>
+</figure>
+<p id="p-18"><span>The reason this generated excitement was that DNA structures are cheap, relatively easy to produce, and scalable. There is no limit to the power that DNA computing can theoretically have since its power increases the more molecules you add to the equation and unlike silicon transistors which can perform a single logical operation at a time, these DNA structures can theoretically perform as many calculations at a time as needed to solve a problem and do it all at once.<br></span></p><div class="embed-ad" id="ad-18"><div class="adW inline_ad"><div class="adC spBg"><span class="adL">Advertisement</span><div class="adA" id="div-gpt-ad-in-article-4"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-in-article-4'); });</script></div></div></div></div>
+<p id="p-19"><span>The problem however, is speed. Even though it took moments for Adleman&rsquo;s solution to the traveling salesman problem to be encoded into his DNA strands in the test tube, it took days of filtering out bad solutions to find the optimal solution he was looking for&mdash;<em>after</em> meticulous preparation for this single computation.</span></p>
+<p id="p-20"><span>Still, the concept was a sound one and the potential for incredible gains in storage capacity and computational speeds was obvious. This kicked off two decades of research into how to create practical DNA computing a reality.</span></p>
+<h2><span>What Are The Advantages to DNA Computing?</span></h2>
+<figure class="image"><picture><img class="img-responsive" title="DNA-Helix" src="https://inteng-storage.s3.amazonaws.com/images/MARCH/sizes/DNAHelix_resize_md.jpg" alt="DNA Helix" width="1200" height="628" nopin="nopin"></picture>
+<figcaption>Source: <a class="underline border-color-innovation" href="https://pixabay.com/illustrations/microbiology-dna-people-structure-163521/" rel="nofollow" target="_blank">Pixabay</a></figcaption>
+</figure>
+<p id="p-21"><span>As demonstrated with Adleman&rsquo;s paper, the major advantage of DNA computing over classical computing&mdash;and even <a class="underline border-color-innovation" href="https://interestingengineering.com/what-will-quantum-computing-change-exactly" rel="dofollow" target="_blank">quantum computing</a> to an extent&mdash;is that it can perform countless calculations in parallel. This idea of parallel computing isn&rsquo;t new and has been mimicked in classical computing for decades. </span></p><div class="embed-ad" id="ad-21"><div class="adW inline_ad"><div class="adC spBg"><span class="adL">Advertisement</span><div class="adA" id="div-gpt-ad-in-article-5"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-in-article-5'); });</script></div></div></div></div>
+<p id="p-22"><span>When you run two applications on a computer at the same time, they aren&rsquo;t actually running concurrently; at any given time, only one instruction is being carried out. So if you are listening to music and shopping online using a browser, the computer is actually using something called <a class="underline border-color-innovation" href="https://www.tutorialspoint.com/what-is-context-switching-in-operating-system" rel="nofollow" target="_blank">context switching</a> to give the appearance of concurrency. </span></p>
+<p id="p-23"><span><div class="post content-related">
+	    <a class="post-image" rel="dofollow" href="https://interestingengineering.com/11-of-the-most-important-yet-underrated-computing-inventions"><img nopin="nopin" src="https://inteng-storage.s3.amazonaws.com/images/sizes/important_computer_inventions_sm.jpg" class="img-responsive"></a>
+    <div class="post-header">
+        <a rel="dofollow" href="https://interestingengineering.com/inventions-and-machines" class="category-title category-title-sm color-innovation">Inventions and Machines</a>
+        <h2 class="clearfix"><a rel="dofollow" href="https://interestingengineering.com/11-of-the-most-important-yet-underrated-computing-inventions">11 of the Most Important, Yet Underrated Computing Inventions</a></h2>
+    </div>
+</div></span></p>
+<p id="p-24"><span>It runs an instruction for one program, saves the state of that program after the instruction is carried out, and removes the program from active memory. It then loads up the previously saved state of the second program, runs its next instruction, saves its new state, and then unloads it from active memory. It then reloads the first program to carry out its next instruction and so on. </span></p><div class="embed-ad" id="ad-24"><div class="adW inline_ad"><div class="adC spBg"><span class="adL">Advertisement</span><div class="adA" id="div-gpt-ad-in-article-6"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-in-article-6'); });</script></div></div></div></div>
+<p id="p-25"><span>By making millions of incremental steps a second across different programs, the appearance of concurrency is achieved, but nothing is ever actually being run in parallel. DNA computing can actually carry out these millions of operations at the same time. </span></p>
+<p id="p-26"><span>Over 10 trillion DNA molecules <a class="underline border-color-innovation" href="https://computer.howstuffworks.com/dna-computer2.htm" rel="nofollow" target="_blank">can be</a> squeezed into a single cubic centimeter. This cubic centimeter of material could theoretically perform 10 trillion calculations at once and hold as much as 10 terabytes of data. In many ways, a lot of the breathless but inaccurate press that quantum computing </span><span>gets </span><span><em>is</em> actually possible with DNA computing. </span></p>
+<p id="p-27"><span>DNA computing then is best thought of as a complement of quantum computing, so that when paired together and driven by a classical computer acting as a <a class="underline border-color-innovation" href="https://www.dictionary.com/browse/singleton" rel="nofollow" target="_blank">Singleton-style manager</a>, the kinds of dramatic increases in computational power that people are hoping to see in the future actually become realistically possible. </span></p><div class="embed-ad" id="ad-27"></div>
+<h2><span>How Long Will It Take For DNA Computers To Arrive</span><span></span></h2>
+<p id="p-28"><span>We&rsquo;ve come a long way since 1994. Shortly after Adleman published his paper, researchers were able to construct logic gates out of DNA&mdash;the parts of a circuit built from individual transistors that can built complicated true-false logical equations out of electrical current. </span></p>
+<p id="p-29"><span>Just this month, computer scientists at the University of California at Davis and Caltech <a class="underline border-color-innovation" href="https://www.nature.com/articles/s41586-019-1014-9" rel="nofollow" target="_blank">have synthesized</a> DNA molecules that can self-assemble into structures by essentially running their own program using six-bit inputs.</span></p>
+<p id="p-30"><span>Microsoft even has a <a class="underline border-color-innovation" href="https://www.microsoft.com/en-us/research/project/programming-dna-circuits/" rel="nofollow" target="_blank">programming language</a> for DNA computing that can help make DNA computing practical once the technology of bio-processors progresses to the point that it can run more sophisticated algorithms. In fact, Microsoft is planning <a class="underline border-color-innovation" href="https://bigthink.com/philip-perry/microsoft-plans-to-have-a-dna-based-computer-by-2020" rel="nofollow" target="_blank">on introducing</a> DNA computing to its cloud services by 2020 and actively developing a DNA data storage <a class="underline border-color-innovation" href="https://www.technologyreview.com/s/607880/microsoft-has-a-plan-to-add-dna-data-storage-to-its-cloud/" rel="nofollow" target="_blank">to integrate</a> into its cloud services.<br></span></p><div class="embed-ad" id="ad-30"></div>
+<p id="p-31"><span>It is likely that these advances will be realized much quicker than advances in quantum computing. <a class="underline border-color-innovation" href="https://interestingengineering.com/what-will-quantum-computing-change-exactly" rel="dofollow" target="_blank">Quantum computing</a> requires sophisticated machinery, superconductors, and extremely cold conditions to keep qubits stable enough to do any actually useful computational tasks, and unless we develop a material that can act as <a class="underline border-color-innovation" href="https://interestingengineering.com/superconductivity-what-is-it-and-why-it-matters-to-our-future" rel="dofollow" target="_blank">a superconductor</a> at room temperature, they won&rsquo;t be making their way into our computers anytime soon.</span></p>
+<p id="p-32"><span>DNA computing, meanwhile, uses DNA that we have become expert at manipulating to the point of replacing a single gene of a DNA strand through <a class="underline border-color-innovation" href="https://interestingengineering.com/scientists-use-crispr-on-edit-resistant-corn-to-boost-yields" rel="dofollow" target="_blank">CRISPR</a>. The materials needed to synthesize DNA molecules are cheap and readily available and remain stable at room temperature and beyond. What DNA Computing is potentially able to achieve given DNA&rsquo;s resiliency and biological parallelism represents an essential step towards the future of computing.</span></p>
+                                                            </div>
+                        </article>
+                    </section>
+                    <div class="clearfix">
+                        
+                            
+                                
+                                
+                                    
+                                    
+                                
+                            
+                        
+                                                                        <!-- div-gpt-ad-article-bottom -->
+<div class="container-fluid adW">
+    <div class="adC spBg">
+        <span class="adL">Advertisement</span>
+        <div class="adA" id="div-gpt-ad-article-bottom">
+            <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-article-bottom'); });
+            </script>
+        </div>
+    </div>
+</div>
+                                                                                                                    
+                        
+                    </div>
+                                            <section class="recommended-wrapper clearfix">
+                            <section class="recommended-list">
+                                <div class="category-title-light big">
+                                    <h2>Sponsored Stories</h2>
+                                    <span class="color-orange"></span>
+                                </div>
+                                <div class="OUTBRAIN" data-widget-id="TF_6" data-src="https://interestingengineering.com/what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal" data-ob-template="InterestingEngineering"></div>
+                            </section>
+                        </section>
+                                        <div class="container-fluid slim-subscription">
+                        <div class="form-wrapper">
+                            <form method="POST" action="https://interestingengineering.com/subscription" accept-charset="UTF-8" class="subscription sbs-form small-box text-center" style="width:100%;"><input name="_token" type="hidden" value="hYAPs4oOCMgknVTq98zoclODWnwUvAHvNMqNRgdE">
+                            <div class="clearfix">
+                                <div class="clearfix b-margin-20">
+                                    <h2>Stay on top of the latest engineering news</h2>
+                                    <span>Just enter your email and we’ll take care of the rest:</span>
+                                </div>
+                                <div class="clearfix b-margin-10">
+                                    <div class="frm pull-left">
+                                        <div class="input-group">
+                                            <input class="form-control" placeholder="Enter your email address" name="email" type="email">
+                                        </div>
+                                        <button type="submit" class="btn btn-info">SUBSCRIBE</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            </form>
+                        </div>
+                    </div>
+                                            <script>
+                            (function (d,s,n,id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.className = n;
+                                js.src = "https://mcd-sdk.playbuzz.com/embed/sdk.js?embedId=99635c8d-9bb7-4e49-804e-4c6068e790aa";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }(document,'script','playbuzz-mcd-sdk','mcd-sdk-jssdk_InterestingEngineering.com'));
+                        </script>
+                        <pb-mcd embed-id="99635c8d-9bb7-4e49-804e-4c6068e790aa"></pb-mcd>
+                        
+                            
+                                
+                                    
+                                    
+                                
+                            
+                        
+                                                                                    <section class="recommended-list clearfix">
+                            <div class="category-title-light big">
+                                <h2>Recommended</h2>
+                                <span class="color-ice-blue"></span>
+                            </div>
+                            <section class="recommended-wrapper clearfix">
+                    <article class="post">
+                        <a class="post-image" href="https://interestingengineering.com/what-is-finite-element-analysis-and-how-does-it-work"><img alt="What Is Finite Element Analysis and How Does It Work?" src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original-set="https://inteng-storage.s3.amazonaws.com/img/iea/Xm6lAK32wD/sizes/nonlinearstaticanalysissnapfit_xs.png" class="img-responsive"></a>
+            <div class="post-header">
+                                <a href="https://interestingengineering.com/physics" title="Physics" class="category-title category-title-sm color-science">Physics</a>
+                                <h2 class="clearfix"><a title="What Is Finite Element Analysis and How Does It Work?" href="https://interestingengineering.com/what-is-finite-element-analysis-and-how-does-it-work">What Is Finite Element Analysis and How Does It Work?</a></h2>
+                <div class="post-tag clearfix">
+                                            <a class="clearfix pull-left" title="Trevor English" href="https://interestingengineering.com/author/trevor-english" rel="author">
+                            <img src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original-set="https://inteng-storage.s3.amazonaws.com/avatars/TEr3Fpfdtikp_small.jpg" class="img-circle">
+                        </a>
+                                        <div class="clearfix">
+                                                    <a title="Trevor English" href="https://interestingengineering.com/author/trevor-english" rel="author">Trevor English</a>
+                                            </div>
+                    <span>1 month ago</span>
+                </div>
+            </div>
+        </article>
+                <article class="post">
+                        <a class="post-image" href="https://interestingengineering.com/what-is-electrical-discharge-machining-and-how-does-it-work"><img alt="What Is Electrical Discharge Machining and How Does It Work?" src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original-set="https://inteng-storage.s3.amazonaws.com/img/iea/V0OyYZ5DOQ/sizes/1425893770-eae6c069f0-o_xs.jpg" class="img-responsive"></a>
+            <div class="post-header">
+                                <a href="https://interestingengineering.com/materials" title="Materials" class="category-title category-title-sm color-industry">Materials</a>
+                                <h2 class="clearfix"><a title="What Is Electrical Discharge Machining and How Does It Work?" href="https://interestingengineering.com/what-is-electrical-discharge-machining-and-how-does-it-work">What Is Electrical Discharge Machining and How Does It Work?</a></h2>
+                <div class="post-tag clearfix">
+                                            <a class="clearfix pull-left" title="Trevor English" href="https://interestingengineering.com/author/trevor-english" rel="author">
+                            <img src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original-set="https://inteng-storage.s3.amazonaws.com/avatars/TEr3Fpfdtikp_small.jpg" class="img-circle">
+                        </a>
+                                        <div class="clearfix">
+                                                    <a title="Trevor English" href="https://interestingengineering.com/author/trevor-english" rel="author">Trevor English</a>
+                                            </div>
+                    <span>1 month ago</span>
+                </div>
+            </div>
+        </article>
+                <article class="post">
+                        <a class="post-image" href="https://interestingengineering.com/how-does-gravity-work-and-could-we-ever-develop-anti-gravity-technology"><img alt="How Does Gravity Work and Could We Ever Develop Anti-Gravity Technology?" src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original-set="https://inteng-storage.s3.amazonaws.com/img/iea/yrwQLpBE6N/sizes/gravity_xs.jpg" class="img-responsive"></a>
+            <div class="post-header">
+                                <a href="https://interestingengineering.com/physics" title="Physics" class="category-title category-title-sm color-science">Physics</a>
+                                <h2 class="clearfix"><a title="How Does Gravity Work and Could We Ever Develop Anti-Gravity Technology?" href="https://interestingengineering.com/how-does-gravity-work-and-could-we-ever-develop-anti-gravity-technology">How Does Gravity Work and Could We Ever Develop Anti-Gravity Technology?</a></h2>
+                <div class="post-tag clearfix">
+                                            <a class="clearfix pull-left" title="Christopher McFadden" href="https://interestingengineering.com/author/christopher-mcfadden" rel="author">
+                            <img src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original-set="https://inteng-storage.s3.amazonaws.com/avatars/UKNMdcXgQf17_small.jpg" class="img-circle">
+                        </a>
+                                        <div class="clearfix">
+                                                    <a title="Christopher McFadden" href="https://interestingengineering.com/author/christopher-mcfadden" rel="author">Christopher McFadden</a>
+                                            </div>
+                    <span>1 month ago</span>
+                </div>
+            </div>
+        </article>
+                <article class="post hidden-md hidden-lg">
+                        <a class="post-image" href="https://interestingengineering.com/how-exactly-does-caffeine-keep-you-awake"><img alt="How Exactly Does Caffeine Keep You Awake?" src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original-set="https://inteng-storage.s3.amazonaws.com/img/iea/rV6npPrmOX/sizes/how-does-caffeine-work_xs.jpg" class="img-responsive"></a>
+            <div class="post-header">
+                                <a href="https://interestingengineering.com/science" title="Science" class="category-title category-title-sm color-science">Science</a>
+                                <h2 class="clearfix"><a title="How Exactly Does Caffeine Keep You Awake?" href="https://interestingengineering.com/how-exactly-does-caffeine-keep-you-awake">How Exactly Does Caffeine Keep You Awake?</a></h2>
+                <div class="post-tag clearfix">
+                                            <a class="clearfix pull-left" title="Christopher McFadden" href="https://interestingengineering.com/author/christopher-mcfadden" rel="author">
+                            <img src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original-set="https://inteng-storage.s3.amazonaws.com/avatars/UKNMdcXgQf17_small.jpg" class="img-circle">
+                        </a>
+                                        <div class="clearfix">
+                                                    <a title="Christopher McFadden" href="https://interestingengineering.com/author/christopher-mcfadden" rel="author">Christopher McFadden</a>
+                                            </div>
+                    <span>3 weeks ago</span>
+                </div>
+            </div>
+        </article>
+            </section>                        </section>
+                                    </div>
+                <section class="column-right">
+                                                                        <section class="trending spo-right visible-md visible-lg b-margin-20">
+                                <div class="adW visible-md visible-lg">
+                                    <div class="adC spBg">
+                                        <span class="adL">Advertisement</span>
+                                        <div class="adA" id='div-gpt-ad-right-top'>
+                                            <script>
+                                                googletag.cmd.push(function() { googletag.display('div-gpt-ad-right-top'); });
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                                                                                                                <div class="trending-topics b-margin-20 pull-left">
+                            <div class="category-title-light long">
+                                <a class="trending-topic-title" href="https://interestingengineering.com/news"> <h2>More at Interesting Engineering</h2></a>
+                                <span class="color-red"></span>
+                            </div>
+                            <div class="column pr">
+                                                                    <div class="trending-item">
+                                                                                <a href="https://interestingengineering.com/chemistry">
+                                            <img src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original="https://inteng-storage.s3.amazonaws.com/images/categories/sizes/chemistry_sm.jpg" class="img-responsive" alt="Chemistry">
+                                            <div class="trending-title">Chemistry</div>
+                                        </a>
+                                    </div>
+                                                                    <div class="trending-item">
+                                                                                <a href="https://interestingengineering.com/robotics">
+                                            <img src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original="https://inteng-storage.s3.amazonaws.com/images/categories/sizes/robotics_sm.jpg" class="img-responsive" alt="Robotics">
+                                            <div class="trending-title">Robotics</div>
+                                        </a>
+                                    </div>
+                                                                    <div class="trending-item">
+                                                                                <a href="https://interestingengineering.com/art">
+                                            <img src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original="https://inteng-storage.s3.amazonaws.com/images/categories/sizes/art_sm.jpg" class="img-responsive" alt="Art">
+                                            <div class="trending-title">Art</div>
+                                        </a>
+                                    </div>
+                                                            </div>
+                            <div class="column pl">
+                                                                    <div class="trending-item">
+                                                                                <a href="https://interestingengineering.com/vrar">
+                                            <img src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original="https://inteng-storage.s3.amazonaws.com/images/categories/sizes/vrar_sm.jpg" class="img-responsive" alt="VR/AR">
+                                            <div class="trending-title">VR/AR</div>
+                                        </a>
+                                    </div>
+                                                                    <div class="trending-item">
+                                                                                <a href="https://interestingengineering.com/space">
+                                            <img src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original="https://inteng-storage.s3.amazonaws.com/images/categories/sizes/space_sm.jpg" class="img-responsive" alt="Space">
+                                            <div class="trending-title">Space</div>
+                                        </a>
+                                    </div>
+                                                                    <div class="trending-item">
+                                                                                <a href="https://interestingengineering.com/sustainability">
+                                            <img src="https://assets.interestingengineering.com/assets/img/ie-default_md.png" data-original="https://inteng-storage.s3.amazonaws.com/images/categories/sizes/sustainability_sm.jpg" class="img-responsive" alt="Sustainability">
+                                            <div class="trending-title">Sustainability</div>
+                                        </a>
+                                    </div>
+                                                            </div>
+                        </div>
+                    
+                                        <div class="hidden">1938</div>
+                                            <div class="OUTBRAIN" data-widget-id="GS_7" data-src="https://interestingengineering.com/what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal" data-ob-template="InterestingEngineering" ></div>
+                                        </section>
+                    <div class="column-right sticky sticky-box">
+                                                                            <div class="adW visible-md visible-lg t-margin">
+                                    <div class="adC spBg">
+                                        <span class="adL">Advertisement</span>
+                                        <div class="adA" id="div-gpt-ad-right-column-sticky">
+                                            <script>
+                                                googletag.cmd.push(function() { googletag.display('div-gpt-ad-right-column-sticky'); });
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        <div id="next-content">
+                            <a href="https://interestingengineering.com/scientists-engineer-plant-cellulose-foam-that-can-be-turned-into-bone" title="next" class="next-content"></a>
+                    </div>
+    </div>
+    
+
+        <!-- /.container -->
+        <footer id="site-footer" class="container-fluid">
+            <div class="footer-top-wrapper">
+                <div class="container">
+                    <div class="footer-column-left clearfix">
+                        <nav id="footer-ie-nav">
+                            <span>INTERESTING ENGINEERING</span>
+                            <div class="centered-nav">
+                                                                <ul class="simple-nav"><li><a href="https://interestingengineering.com/about-us">About Us</a><li><a href="https://interestingengineering.com/advertise">Advertise</a><li><a href="https://interestingengineering.com/events">Events</a><li><a href="https://interestingengineering.com/jobs">Jobs</a><li><a href="https://interestingengineering.com/contact-us">Contact Us</a></li></ul>
+                                                            </div>
+                        </nav>
+                        <nav id="footer-main-nav" class="hidden-xs">
+                            <span>CATEGORIES</span>
+                                                        <ul class="simple-nav">
+                                                                                                        <li><a href="https://interestingengineering.com/news" title="News">News</a></li>
+                                                                                                                                            <li><a href="https://interestingengineering.com/innovation" title="Innovation">Innovation</a></li>
+                                                                                                                                            <li><a href="https://interestingengineering.com/science" title="Science">Science</a></li>
+                                                                                                                                            <li><a href="https://interestingengineering.com/industry" title="Industry">Industry</a></li>
+                                                                                                                                            <li><a href="https://interestingengineering.com/how-to" title="How-to">How-to</a></li>
+                                                                                                </ul>
+                                                    </nav>
+                    </div>
+                    
+                        
+                        
+                            
+                                
+                            
+                            
+                        
+                        
+                            
+                            
+                        
+                        
+                            
+                            
+                        
+                        
+                    
+                </div>
+            </div>
+            
+                
+                    
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                    
+                
+            
+            <div class="footer-bottom-wrapper">
+                <nav class="container">
+                    <span class="copyright">© Copyright 2019 | Interesting Engineering, Inc. | All Rights Reserved</span>
+                                            <div class="footer-pp-menu">
+                            <ul class="simple-nav"><li><a href="https://interestingengineering.com/terms-of-service">Terms of Service</a><li><a href="https://interestingengineering.com/policies">Policies</a></li></ul>
+                        </div>
+                                    </nav>
+            </div>
+        </footer>
+                <div id="cookie-warning">
+            <div class="container">
+                <button class="cookie-warning-close">x</button>
+                <span class="pull-left">
+                    We use cookies to ensure you get the best experience on our website. Please <a href="https://interestingengineering.com/privacy-policy">review our Privacy Policy</a> for more information and/or to change your cookie settings at any time.  If you continue to use this site, you consent to our use of cookies.
+                </span>
+                <div class="cookie-warning-btn-wrp">
+                    <a href="https://interestingengineering.com/privacy-policy#settings" class="btn btn-warning">COOKIE SETTINGS</a>
+                    
+                </div>
+            </div>
+        </div>
+                
+            
+                
+            
+        
+                            <script type="application/javascript" src="https://www9.smartadserver.com/ac?out=js&nwid=1331&siteid=265569&pgname=.2_a.34961.46_interestingengineering.com_tier1_/hi/&fmtid=44627&tgt=[sas_target]&visit=m&tmstp=[timestamp]&clcturl=[countgo]"></script>
+                                            <!-- Modal -->
+        <div class="modal fade" id="newsletter-modal" tabindex="-1" role="dialog" aria-labelledby="Newsletter">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body text-center newsletter-container">
+                        <div class="header-container">
+                            <h1>Stay on top of<br>the latest<br>engineering news</h1>
+                        </div>
+                        <form method="POST" action="https://interestingengineering.com/subscription" accept-charset="UTF-8" class="text-center sbs-form"><input name="_token" type="hidden" value="hYAPs4oOCMgknVTq98zoclODWnwUvAHvNMqNRgdE">
+                        <label class="input-group">
+                            <input class="form-control no-border" aria-label="Email" placeholder="Enter your email address" name="email" type="email">
+                        <button type="submit" class="btn btn-success newsletter-submit no-border" data-push-category="Daily Newsletter Popup"></button>
+                        </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </main>
+    <!-- /#page-content -->
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    
+    
+    
+    
+    <script defer src="https://assets.interestingengineering.com/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    
+    <script defer src="https://assets.interestingengineering.com/assets/plugins/iziToast/dist/js/iziToast.min.js"></script>
+    <script defer src="https://assets.interestingengineering.com/assets/plugins/stickyfill.min.js"></script>
+            <script src="https://assets.interestingengineering.com/assets/plugins/jssocials/jssocials.min.js"></script>
+    <script src="https://assets.interestingengineering.com/assets/plugins/jquery-ias.min.js"></script>
+    <script src="https://assets.interestingengineering.com/assets/plugins/sly.min.js"></script>
+    <script>
+
+        
+
+    $(function() {
+
+        if($('.article-bottom-ad').length)
+        {
+            $(window).on('resize scroll', function() {
+                var abAd = $('.article-bottom-ad');
+                if (abAd.isInViewport())  {
+                    if(abAd.data('is-active') != '1')
+                    {
+                        setEvent('Sponsored (Banner)',abAd.find('a').data('title'),'Impression');
+                        abAd.data('is-active','1');
+                    }
+                }
+            });
+        }
+
+        $(document).on('click touch', '.trending-item > a', function(){
+            window.dataLayer.push({
+                'event': 'gaEvent',
+                'Category': 'More at Interesting Engineering Unit',
+                'Label': $(this).text(),
+                'Action': 'Click',
+                'nonInteraction': true
+            });
+        });
+
+        $(document).on('click touch', '.trending-topic-title', function(){
+            window.dataLayer.push({
+                'event': 'gaEvent',
+                'Category': 'More at Interesting Engineering Unit',
+                'Label': 'More at Interesting Engineering',
+                'Action': 'Click',
+                'nonInteraction': true
+            });
+        });
+
+        $.displayNewsletterForm = function() {
+            $('.arrow-down').toggleClass('active');
+            $('#newsletterContent').slideToggle('fast');
+            setEvent('In Article Newsletter Unit','CTA Title','Click');
+        }
+        var categoryMenu = $('.category-menu');
+
+        if($('.sub-category-list').length)
+        {
+            if ($(window).width() > 1014)
+            {
+                $('.sub-category-list').width($(window).width() - $('.category-name').width()).show();
+                categoryMenu.width($(window).width() - $('.category-name').width()-10);
+            }
+            else
+            {
+                $('.sub-category-list').width($(window).width() - $('.category-name').width()-20).show();
+                categoryMenu.width($(window).width() - $('.category-name').width()-80);
+            }
+
+            var sly = new Sly(categoryMenu, {
+                horizontal: 1,
+                itemNav: 'centered',
+                activateOn: 'click',
+                mouseDragging: 1,
+                touchDragging: 1,
+                releaseSwing: 1,
+                activatePageOn: 'click',
+                speed: 300,
+                elasticBounds: 1,
+                dragHandle: 1,
+                dynamicHandle: 1,
+                clickBar: 1,
+                prevPage: $('.controls').find('.prevPage'),
+                nextPage: $('.controls').find('.nextPage')
+            }).init();
+
+            var $pos = 0;
+
+            sly.on('moveStart', function (eventName) {
+                if($pos < sly.pos.dest)
+                {
+                    setEvent('Category Navigation Bar','Right Arrow','Click');
+                    $pos = sly.pos.dest;
+                }
+                else if($pos > sly.pos.dest)
+                {
+                    setEvent('Category Navigation Bar','Left Arrow','Click');
+                    $pos = sly.pos.dest;
+                }
+            });
+
+            $('.category-menu > ul > li > a').on('click',function(){
+                setEvent('Category Navigation Bar',$(this).text(),'Click');
+            });
+        }
+
+        if($('.sub-category-list').length)
+        {
+            $(window).on('resize scroll', function() {
+                if ($(window).width() > 1014)
+                {
+                    $('.sub-category-list').width($(window).width() - $('.category-name').width());
+                    categoryMenu.width($(window).width() - $('.category-name').width()-10);
+                    sly.reload();
+                }
+                else
+                {
+                    $('.sub-category-list').width($(window).width() - $('.category-name').width()-20);
+                    categoryMenu.width($(window).width() - $('.category-name').width()-80);
+                    sly.reload();
+                }
+            });
+        }
+    });
+
+                                $(window).on("load", function() {
+                    $('#sticky__sidebar').height($(document).height() - ($('#site-footer').height() + 234));
+                });
+                    
+        $("#share1_0").jsSocials({
+            url: "https://interestingengineering.com/what-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal",
+            id: "share1_0",
+            showLabel: false,
+            showCount: false,
+            shares: [
+                "facebook",
+                "twitter",
+                "linkedin",
+                "pinterest",
+                {
+                    renderer: function() {
+                        $result = $("<div>");
+                        $result.addClass('jssocials-share jssocials-share-reddit');
+
+                        $a = $("<a>");
+                        $('<i>').addClass('fa fa-reddit-alien jssocials-share-logo').appendTo($a);
+                        $('<span>').addClass('jssocials-share-count').appendTo($a);
+
+                        $a.addClass("jssocials-share-link jssocials-share-link-count jssocials-share-no-count")
+                            .attr("href", 'https://www.reddit.com/submit?url=https%3A%2F%2Finterestingengineering.com%2Fwhat-is-dna-computing-how-does-it-work-and-why-its-such-a-big-deal')
+                            .attr("target", "_blank")
+                            .appendTo($result);
+
+                        return $result;
+                    }
+                }],
+            text: "What is DNA Computing, How Does it Work, and Why it\'s Such a Big Deal"
+        });
+
+        var iasPush = jQuery.ias({
+            container:  '.ias-push',
+            item:       '.ias-push-item',
+            pagination: '#next-content',
+            next:       '.next-content',
+            delay:      0,
+            negativeMargin: 200
+        });
+
+        iasPush.extension(new IASPagingExtension());
+        iasPush.extension(new IASHistoryExtension({ prev: '.prev a' }));
+        iasPush.extension(new IASNoneLeftExtension({
+            html: '<div class="container tb-margin-10"><a disabled class="btn btn-lg btn-primary load-more black-bottom-shadow">{text}</a></div>'
+        }));
+        iasPush.extension(new IASSpinnerExtension({
+            src: 'https://assets.interestingengineering.com/assets/img/loading-blocks.svg'
+        }));
+        iasPush.extension(new IASTriggerExtension({
+            html: '<div class="container tb-margin-10"><a class="btn btn-lg btn-primary load-more black-bottom-shadow">NEXT ARTICLE</a></div>'
+        }));
+        iasPush.on('load', function(event) {
+            c = c+1;
+            event.url = event.url + "?c="+c;
+        });
+
+        iasPush.on('rendered', function(items) {
+            $(items).each(function() {
+                var $this = this;
+                var $contentData = $($this).find('.content-title');
+                var url = $contentData.data('url');
+                var title = $contentData.text();
+                
+                var totalSharesCounts = {};
+
+                var refreshTotalCount = function(shareId) {
+                    $("#totalCount_" + shareId,$this).text(jsSocials.Socials.prototype._formatNumber(totalSharesCounts[shareId]));
+                };
+
+                var origGetCountValue = jsSocials.Socials.prototype._getCountValue;
+
+                jsSocials.Socials.prototype._getCountValue = function(response, share) {
+                    var count = share.getCount(response);
+                    totalSharesCounts[this.id] = (totalSharesCounts[this.id] ? totalSharesCounts[this.id] : 0) + (parseInt(count, 10) || 0);
+                    refreshTotalCount(this.id);
+                    return origGetCountValue.apply(this, arguments);
+                };
+
+                $("#share1_"+c,this).jsSocials({
+                    url: url,
+                    id: "share1_"+c,
+                    showLabel: false,
+                    showCount: false,
+                    shares: ["facebook",
+                            "twitter",
+                            "linkedin",
+                            "pinterest",
+                            {
+                                renderer: function() {
+                                    redditUrl = 'https://www.reddit.com/submit?url='+encodeURIComponent(url);
+                                    $result = $("<div>");
+                                    $result.addClass('jssocials-share jssocials-share-reddit');
+
+                                    $a = $("<a>");
+                                    $('<i>').addClass('fa fa-reddit-alien jssocials-share-logo').appendTo($a);
+                                    $('<span>').addClass('jssocials-share-count').appendTo($a);
+
+                                    $a.addClass("jssocials-share-link jssocials-share-link-count jssocials-share-no-count")
+                                        .attr("href", redditUrl)
+                                        .attr("target", "_blank")
+                                        .appendTo($result);
+
+                                    return $result;
+                                }
+                            }],
+                    text: title
+                });
+
+                myLazyLoad.update();
+
+                                                OBR.extern.researchWidget();
+                            });
+
+                                            $('#sticky__sidebar').height($(document).height());
+                                                        setEvent('Article','Next Article Button','Click');
+                dataLayer.push(gtmData);
+                    });
+
+            </script>
+    <script defer src="https://assets.interestingengineering.com/assets/js/main.min.js?v=38"></script>
+    <script>
+        $(function (){
+                            $(document).on('click touch', '.cookie-settings', function(){
+                    $('#cookie-warning').hide();
+                    __cmp('displayConsentUi');
+                    window.dataLayer.push({
+                        'event': 'gaEvent',
+                        'Category': 'GDPR Cookie Bar',
+                        'Label': 'Settings Button',
+                        'Action': 'Click',
+                        'nonInteraction': true
+                    });
+                });
+                    });
+    </script>
+        <script>
+        $(window).on("load", function () {
+            setTimeout(
+                function()
+                {
+                    $('#newsletter-modal').modal();
+                    $('#header').css('z-index',1000);
+                    setEvent('Daily Newsletter Popup','Popup Impressions','Impression');
+                }, 60000);
+
+            $('#newsletter-modal').on('hidden.bs.modal', function (e) {
+                $.get( "/setNewsletter");
+                setEvent('Daily Newsletter Popup','Close Button','Click');
+            });
+        });
+    </script>
+        
+</div>
+</body>
+</html>

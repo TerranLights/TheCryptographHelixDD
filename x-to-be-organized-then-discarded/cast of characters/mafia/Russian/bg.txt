@@ -1,5 +1,0 @@
-Techno-Primitivist by design; intentionally low-tech as a way of protecting themselves from hacking
-
-use waveforms as akin to SHA256SUM
-
-

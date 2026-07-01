@@ -1,0 +1,3 @@
+# Ebook files — too large for GitHub; kept local only
+reference/ebooks/**/*.pdf
+reference/ebooks/**/*.epub

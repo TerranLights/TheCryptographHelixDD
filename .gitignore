@@ -1,3 +1,2 @@
-# Ebook files — too large for GitHub; kept local only
-reference/ebooks/**/*.pdf
-reference/ebooks/**/*.epub
+# Ebook library — kept local only, too large for GitHub
+reference/ebooks/

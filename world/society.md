@@ -6,16 +6,16 @@ Countries and governments technically exist but are a formality. The tech giants
 
 ## Nations and Ethnic Groups (Earth-Era)
 
-By the Cryptograph Helix era, centuries of demographic and political change have reshapen the map of Earth:
+By the Cryptograph Helix era (~3000s), centuries of demographic and political change have reshaped the map of Earth. The specific forms these nations take needs to be developed from the Tepenian universe's established demographics — the educated, wealthy, robot-owning classes of these nations largely went into Antarctic exile in 2564, and what remained evolved over the following 500 years under Upper Earth and then Earthtech/The Mandate control.
 
-- **Sweden** no longer exists → now called **Suwedistan**
-- **Germany** → now called **al-Manya**
-- **The UK** → now called **The Caliphate**
-- **Iceland** survived — stopped doling out welfare long ago, which insulated it from demographic collapse
-- **Finland** survived — being so far north kept them isolated enough to maintain cohesion
-- **Slavs** (Serbians, etc.) survived because "they've been through worse"
-- **Hungarians** — the backbone of the Resistance / Altay Nation; see `factions/resistance/overview.md`
-- **China** — collapsed before the story began due to catastrophic birthrate decline. Its replacement: the Silicon Valley collective and, earlier, the Sinian Federation.
+**Confirmed:**
+- **Finland** — survived and maintained cultural cohesion; geographic isolation was a factor
+- **Iceland** — survived; stopped doling out welfare long ago, which insulated it from demographic pressures
+- **Hungarians** — backbone of the Resistance / Altay Nation; see `factions/resistance/overview.md`
+- **China** — collapsed before the story began due to catastrophic birthrate decline; its successor is the Sinian Federation, which sent one of the largest exile waves to Tepenia
+
+**To be developed:**
+- What do Germany, the UK, Sweden, and other European nations look like in the ~3000s under the Tepenian universe's demographic logic? The Suwedistan / al-Manya / The Caliphate names were from the original standalone-universe concept and do not apply here. These nations' fates need to be rethought from the ground up.
 
 ## Religion and Cults
 

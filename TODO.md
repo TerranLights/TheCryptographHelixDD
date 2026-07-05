@@ -30,8 +30,8 @@ These require a deliberate call before downstream work can proceed. None can be 
 - [ ] **Brazilian Mafia — full development**
   `factions/mafias/brazilian/overview.md` is a stub. Needs: origin story, philosophy, how they encode data, what role they play per book, 48-laws mapping. Look at Chinese and Russian files as templates.
 
-- [ ] **Serbian Mafia — full development**
-  `factions/mafias/serbian/overview.md` is a stub beyond the "been through worse" survival note. Same template applies.
+- [ ] **Korean Mafia — full development**
+  `factions/mafias/korean/overview.md` is a stub. Needs: origin story, philosophy, specialty, role per book, 48-laws mapping. The Jeju-do legacy (robot personhood ruling from Unified Korea, 2318) is the cultural seed — a criminal organization descended from the civilization that formalized rights is a rich contradiction to develop.
 
 - [ ] **Resistance — 48-laws**
   `factions/resistance/48-laws.md` is empty. The faction overview exists; the 48-laws analysis needs writing.
@@ -64,6 +64,9 @@ These require a deliberate call before downstream work can proceed. None can be 
 
 - [ ] **Society files — all 6 ethnic groups**
   All files in `societies/` are placeholders with structure only. Each needs substantive content: cultural characteristics, how they survived into the ~3000s era, what role they play in the story, any relevant customs or beliefs. Priority order: Hungarians (Resistance), Finns (co-survivor culture), Chinese, Colombians, Greeks, Germans.
+
+- [ ] **Earth-era nations — develop from Tepenian demographics**
+  The standalone-universe names (Suwedistan, al-Manya, The Caliphate) have been removed. What Germany, the UK, Sweden, and other European nations look like in the ~3000s needs to be worked out from the Tepenian universe's demographic logic. Germans are significant (leading European census group in Tepenia); UK and Sweden's Tepenian-era fates are TBD. See `world/society.md`.
 
 - [ ] **World — missing locations**
   `world/locations.md` covers major sites but smaller or incidental locations need filling in as the beat sheets develop: specific Venus gulag details, the Belt colony where X happens, named Jovian shellworld districts.
@@ -124,4 +127,6 @@ These require a deliberate call before downstream work can proceed. None can be 
 - [x] Reference files — future-ideas.md (14 Earthtech name candidates), unsorted-notes.md, continuity-guidelines.md
 - [x] eBooks gitignore — `reference/ebooks/` excluded from GitHub
 - [x] Indian faction and society removed entirely from repo
+- [x] Serbian Mafia replaced with Korean Mafia — demographically grounded in Tepenian census; Jeju-do legacy as cultural seed
+- [x] Standalone-universe nation names removed (Suwedistan, al-Manya, The Caliphate) — flagged for replacement based on Tepenian demographic logic
 - [x] American English confirmed as repo standard

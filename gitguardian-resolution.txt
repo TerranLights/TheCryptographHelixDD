@@ -1,0 +1,71 @@
+GITGUARDIAN INCIDENT — RESOLUTION NOTES
+========================================
+Date of alert: June 30, 2026
+Repository: TerranLights/TheCryptographHelixDD
+
+
+WHAT HAPPENED
+-------------
+GitGuardian detected an "X-API-Key Secret" in the repository. The flagged
+file was:
+
+  x-to-be-organized-then-discarded/articles/genetics/
+  benefits-and-risks-of-dna-based-computing.html
+  Line 967, commit e486636
+
+This was a web article about DNA computing saved from NetworkWorld.com and
+uploaded with an early batch of reference notes. The article's JavaScript
+contained a staging API key belonging to IDG Communications (the parent
+company of NetworkWorld), embedded in the page's source code by the original
+website. The key is for IDG's staging API server:
+
+  api-stage.idgcommunications.net
+
+This is NOT your API key. It belongs to a third-party media publisher and
+was an accidental inclusion when you committed saved web articles.
+
+The file has since been deleted from the current repository (removed during
+the restructure), but it remains readable in the git history at the commit
+listed above, which is why GitGuardian flagged it.
+
+
+HOW TO RESOLVE IN GITGUARDIAN
+------------------------------
+1. Go to: dashboard.gitguardian.com
+2. Log in to your account.
+3. Find the open incident — it will match the details from the alert email
+   (repository: TerranLights/TheCryptographHelixDD, pushed June 30, 2026).
+4. Open the incident.
+5. Look for a "Resolve" or "Share feedback" button/option.
+6. Select the status: "Not my secret"
+   (This is accurate — the key belongs to IDG Communications, not you.)
+7. Submit. GitGuardian will close the incident and stop sending alerts for it.
+
+
+OPTIONAL: FULLY PURGE FROM GIT HISTORY
+----------------------------------------
+The key is still technically visible in the old commit on GitHub. If you
+want to remove it entirely from the repository's history, the process is:
+
+  1. Install git-filter-repo (pip install git-filter-repo)
+  2. Run:
+       git filter-repo --path "x-to-be-organized-then-discarded/articles/genetics/benefits-and-risks-of-dna-based-computing.html" --invert-paths
+  3. Force-push:
+       git push origin main --force
+
+  WARNING: This rewrites all commit hashes in the repository's history.
+  If anyone else has cloned the repo, they will need to re-clone it.
+  Since this is a solo project, the risk is low — but confirm before doing it.
+
+Since the key is not yours and belongs to a staging server for a media
+publisher, the practical security risk to you is zero. Marking it as
+"Not my secret" in GitGuardian is sufficient.
+
+
+NOTE ON FUTURE PREVENTION
+--------------------------
+If you commit saved web articles or HTML files again, be aware that some
+pages embed API keys, tokens, or credentials in their JavaScript. To avoid
+a repeat, either:
+  - Save articles as plain text or PDF instead of raw HTML, or
+  - Add *.html to the .gitignore before committing reference articles.

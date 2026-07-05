@@ -1,4 +1,4 @@
-# Serbian Mafia — 48 Laws of Power
+# Korean Mafia — 48 Laws of Power
 
 ## Followed
 

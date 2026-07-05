@@ -8,14 +8,14 @@ They began trafficking data. Eventually they built entire shellworld mini-planet
 
 Some within the Mafia began questioning the ethics of what they were doing.
 
-## The Five Mafias
+## The Four Mafias
 
 | Faction | Origin | Specialty | Character |
 |---|---|---|---|
 | **Chinese** | China (post-collapse) | Brain encryption, weapon schematics, designer babies | Deceptive, hegemony-minded |
 | **Russian** | Russia | E-thots, framejacking drugs, meme-warfare | Techno-Primitivist, brutal |
 | **Brazilian** | Brazil | TBD | TBD |
-| **Serbian** | Serbia / Slavic | TBD | TBD — "been through worse" |
+| **Korean** | Unified Korea | TBD | TBD — descendants of the Jeju-do ruling civilization |
 
 ## General Character
 

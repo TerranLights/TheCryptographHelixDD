@@ -22,7 +22,7 @@ Cross-phase progress at a glance. Update as work is completed.
 | Chinese Mafia | ✅ | ✅ | |
 | Russian Mafia | ✅ | ✅ | |
 | Brazilian Mafia | 🔶 Stub | 🔶 Stub | |
-| Serbian Mafia | 🔶 Stub | 🔶 Stub | |
+| Korean Mafia | 🔶 Stub | 🔶 Stub | Replaced Serbian — Jeju-do legacy seed |
 | Memes | ✅ | 🔶 Partial | Broken list TBD |
 | E-Thots (overview) | ✅ | — | |
 | Colombian E-Thot | ✅ | ✅ | Name TBD |

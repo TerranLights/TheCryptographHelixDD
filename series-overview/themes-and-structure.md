@@ -48,6 +48,8 @@ Each book and each faction's arc follows 3-act structure with these key beats:
 
 **Act 3:** Mounting Forces → Lights Out → Q Factor → Final Battle → Transformation
 
+> **Full beat-by-beat definitions** (with source attributions for Snyder/Bell/Truby/Campbell cross-references and exact percentage placements) are in `reference/story-structure-definitions.md`. That file also contains the blank template used for all per-book beat sheets. Terminology mapping: "Disturbance" = Catalyst; "Argument Against Transformation" = Debate; "Doorway of No Return #1/#2" = Break into Two/Three; "Mirror Moment" = Midpoint.
+
 ## The Antagonist Archetypes (Per Book)
 
 | Book | Antagonist Against Freedom |

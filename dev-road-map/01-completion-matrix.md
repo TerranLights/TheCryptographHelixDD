@@ -91,6 +91,7 @@ Cross-phase progress at a glance. Update as work is completed.
 
 | File | Status |
 |---|---|
+| `reference/story-structure-definitions.md` | ✅ Complete — fused Snyder/Bell/Truby/Campbell definitions |
 | `reference/future-ideas.md` | ✅ Active |
 | `reference/unsorted-notes.md` | ✅ Active |
 | `reference/continuity-guidelines.md` | ✅ Complete |

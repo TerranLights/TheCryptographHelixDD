@@ -38,15 +38,17 @@ Cross-phase progress at a glance. Update as work is completed.
 
 ## Books
 
-| Book | File | Beat Sheet | Status |
-|---|---|---|---|
-| 1 — Terranocracy, Anointed | ✅ | 🔶 Partial | Has opening beats |
-| 2 — The Autonomy Allele | ✅ | ⬜ Stub | |
-| 3 — Neurotropic Dreamtime | ✅ | ⬜ Stub | |
-| 4 — The Architect Awakes | ✅ | ⬜ Stub | |
-| 5 — Eclipse of a Ganymede Sunrise | ✅ | ⬜ Stub | |
-| 6 — Storm over Callisto | ✅ | ⬜ Stub | |
-| 7 — Embers of a Frostbitten Star | ✅ | 🔶 Partial | Has closing beats |
+Each book is a folder with `overview.md` + `volume-1/` + `volume-2/`. Each volume has `structure/main story/Save the Cat.md`, `structure/character arcs/`, and `Dev-Road-Map/` (00-Overview + 10-Craft-Reference). Volume 1 always ends at the Midpoint; Volume 2 covers post-Midpoint through Finale.
+
+| Book | Overview | Vol 1 Beat Sheet | Vol 2 Beat Sheet | Notes |
+|---|---|---|---|---|
+| 1 — Terranocracy Anointed | ✅ | 🔶 Partial — Act 1 beats populated | 🔶 Partial — Doorway to Act #3 populated | |
+| 2 — The Autonomy Allele | ✅ | 🔶 Partial — IoT assassination + piano-key | ⬜ Stub | László introduced ~2.10 |
+| 3 — Neurotropic Dreamtime | ✅ | 🔶 Partial — Russian Mafia in Road of Trials | 🔶 Partial — Meeting with the Goddess | |
+| 4 — The Architect Awakes | ✅ | 🔶 Partial — Road of Trials + Midpoint populated | 🔶 Partial — Atonement with the Father | László arc begins 4.1; memes online ~4.7 |
+| 5 — Eclipse of a Ganymede Sunrise | ✅ | ⬜ Stub | 🔶 Partial — Dark Night + Final Battle populated | |
+| 6 — Storm over Callisto | ✅ | ⬜ Stub | 🔶 Partial — Bad Guys Close In + Dark Night | |
+| 7 — Embers of a Frostbitten Star | ✅ | ⬜ Stub | 🔶 Partial — Q-Factor + Final Battle + Closing Image | ⚠️ Needs full revision — standalone-universe content |
 
 ## Plot
 

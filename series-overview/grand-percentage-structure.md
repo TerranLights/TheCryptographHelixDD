@@ -127,6 +127,22 @@ Book 6's Mirror Moment ("Who is Freedom now? What must it become?") is embedded 
 
 ---
 
+## The Three Hinge Books
+
+Books 2, 4, and 6 are the structural hinge books of the entire series. Each one straddles a Grand act boundary, and each one's Local Midpoint (the Vol 1 / Vol 2 break) falls within ~200 pages of that Grand boundary:
+
+| Grand Boundary | % | Hinge Book | Local Midpoint (% of series) | Gap |
+|---|---|---|---|---|
+| Break into Two | 20% | Book 2 | 21.4% | ~200 pages |
+| Midpoint | 50% | Book 4 | 50.0% | **exact** |
+| Break into Three | 80% | Book 6 | 78.6% | ~200 pages |
+
+Books 2 and 6 are symmetric mirrors of each other around Book 4. The gap is identical on both sides (~200 pages), and they're equidistant from the center. The hinge books are evenly spaced: 2, 4, 6 — every other book.
+
+**Consequence for story planning:** the Vol 1 / Vol 2 break of each hinge book is where the grand act transition and the local Mirror Moment converge. Whatever happens at the end of Book 2 Vol 1, Book 4 Vol 1, and Book 6 Vol 1 carries double structural weight — those are the pages where the grand arc and the local arc speak in the same voice simultaneously.
+
+---
+
 ## Quick-Reference: Where Grand Beats Land by Book
 
 | Grand Beat | % | Book | Local Position in That Book |

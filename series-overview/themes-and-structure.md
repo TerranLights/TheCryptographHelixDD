@@ -1,10 +1,29 @@
 # Themes and Structure
 
+## Philosophical Architecture
+
+Three principles underpin the entire series. Everything else — structure, character, world — is in service of these.
+
+### The Two Pillars
+
+Consciously modeled on Philip K. Dick's two throughlines (*What is reality?* and *What constitutes the fully-actuated human being?*), transposed from humans to robots:
+
+1. **What is The Robot Experience?** — the nature of consciousness in a mind and body that was built rather than born
+2. **How do the Robot Experience and the Human Experience interact with each other?** — including, centrally, love
+
+The question "are robots people?" is not a dramatic question in this series. It was settled definitively by the Jeju-do ruling (2318) and the Falkland Treaty (2564), nearly 900 years before the story opens. Asking it in Book 1 would be like demanding a deep philosophical discussion about whether water is wet. The correct answer is "that's a stupid question" — and then moving directly on to contemplating hydroelectric power and the way ice carves mountains. The interesting territory is entirely downstream of the settled fact.
+
+### The PKD Protagonist Principle
+
+Philip K. Dick held that the true protagonist of a proper science fiction story is not any particular character, but an **idea**. The protagonist of this series is not a person — it is **Freedom** itself.
+
+---
+
 ## Overarching Theme
 
 **Freedom vs. Evolutionary Pressure (Man vs. Nature)**
 
-The protagonist is not a person — it is **Freedom** itself. All seven books map the journey of Freedom through shadow and light, loss and reclamation.
+All seven books map the journey of Freedom through shadow and light, loss and reclamation.
 
 The three philosophical sub-themes, cycling twice across the seven books:
 1. **Privacy** (Books 1–2)

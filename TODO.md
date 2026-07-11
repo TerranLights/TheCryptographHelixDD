@@ -17,12 +17,15 @@ These require a deliberate call before downstream work can proceed. None can be 
 - [ ] **"Framejacking" — term ownership check**
   Currently understood to be Dennis E. Taylor's term. If confirmed, needs renaming before the series is public-facing. Blocks: `world/technology.md`, Russian Mafia overview, series pitch materials.
 
+- [ ] **"Nearly 900 years" line — reconcile with fluid opening date**
+  `series-overview/themes-and-structure.md`'s Philosophical Architecture section says robot personhood was settled "nearly 900 years before the story opens" (measuring from Jeju-do, 2318, or the Falkland Treaty, 2564). That figure only holds if Cryptograph Helix opens ~3200s; the series' actual opening date is officially fluid at ~3000s–3100s, where the true gap is roughly 600–800 years. Flagged 2026-07-11 — left as-is intentionally pending the opening-date decision. Revisit once the opening year firms up (either adjust the prose or let it justify locking to ~3200s).
+
 ---
 
 ## High Priority
 
 - [ ] **Books 2–6 — beat sheets**
-  All seven book files exist in `books/` but Books 2–6 are stubs. Each needs its 3-act structure filled in (Inciting Incident, Act 1–3 beats, Mirror Moment, All Is Lost, climax). Start with Book 2 (`02-the-autonomy-allele.md`) to unblock the monomyth's second iteration.
+  All seven books have `overview.md` + `volume-1/` + `volume-2/` folders, but Books 2–6 are stubs (see `dev-road-map/01-completion-matrix.md` for per-volume status). Each volume needs its beat sheet filled in (Inciting Incident, Act 1–3 beats, Mirror Moment, All Is Lost, climax). Start with Book 2's Volume 1 (`books/book-02-the-autonomy-allele/volume-1/structure/main story/Save the Cat.md`) to unblock the monomyth's second iteration.
 
 - [ ] **Monomyth — iterations 2–7**
   `plot/monomyth.md` has structure for all 7 iterations but only iteration 1 has any substantive content. Complete the KWML archetype + all 8 Harmon steps for each remaining iteration. Depends on beat sheets above for Books 2–6.

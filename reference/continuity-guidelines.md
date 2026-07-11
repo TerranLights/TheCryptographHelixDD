@@ -42,5 +42,5 @@ When an idea is exciting but belongs in Outer Tepenia rather than Cryptograph He
 ## Timeline Integrity
 
 - The gap between Cryptograph Helix (~3000s–3100s) and Outer Tepenia 1 is TBD but likely several generations — enough for the post-war civilization to have settled and for the events of the novels to have become history rather than living memory.
-- Everything established in Cryptograph Helix must be consistent with Inner Tepenia's timeline (~2083–2700s). See `series-overview/universe-timeline.md`.
+- Everything established in Cryptograph Helix must be consistent with Inner Tepenia's timeline (~2083–2840s). See `series-overview/universe-timeline.md`.
 - Do not lock a specific opening date for Cryptograph Helix until world-building context demands it.

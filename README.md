@@ -1,6 +1,6 @@
 # The Cryptograph Helix — Design Documentation
 
-7-volume sci-fi novel series set in the early 3000s–3100s (deliberately fluid). A Philip K. Dick-inspired story where **Freedom** is the main character.
+7-book (14-volume) sci-fi novel series set in the early 3000s–3100s (deliberately fluid). A Philip K. Dick-inspired story where **Freedom** is the main character.
 
 ## Series Premise
 
@@ -15,11 +15,11 @@ Data encoding into DNA replaces binary computation. A "DNA Mafia" arises to prot
 | `societies/` | Ethnic groups and their roles |
 | `factions/` | Earthtech, Mafias, Resistance, E-thots, Memes |
 | `characters/` | Individual character sheets |
-| `books/` | Per-book beat sheets (Act 1 / 2 / 3) |
+| `books/` | Per-book folders, each split into `volume-1/` (Act 1–Midpoint) and `volume-2/` (post-Midpoint–Finale) beat sheets |
 | `plot/` | Series map, monomyth, parallel plot arcs |
 | `philosophy/` | Thematic insights, 48 Laws of Power reference |
 | `reference/` | Unsorted notes, future ideas |
 
 ## Parent Universe
 
-This series is set within the context of **Inner Tepenia** (~2083–2700s), a separate story also in development. See `series-overview/universe-timeline.md` for cross-series continuity. Inner Tepenia GDD: https://github.com/TerranLights/InnerTepeniaGDD
+This series is set within the context of **Inner Tepenia** (~2083–2840s), a separate story also in development. See `series-overview/universe-timeline.md` for cross-series continuity. Inner Tepenia GDD: https://github.com/TerranLights/InnerTepeniaGDD

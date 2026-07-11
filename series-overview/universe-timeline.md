@@ -1,6 +1,6 @@
 # Universe Timeline
 
-The Cryptograph Helix is the sequel era to **Inner Tepenia** (~2083–2840s). Both are set in the same universe.
+The Cryptograph Helix is the sequel era to **Inner Tepenia** (~2083–2827). Both are set in the same universe.
 
 > The old notes say "2279 A.D." — **this date is outdated/placeholder.** The correct era is approximately the early 3000s–3100s (deliberately fluid; do not lock a specific year until world-building context demands it).
 
@@ -15,7 +15,7 @@ The Cryptograph Helix is the sequel era to **Inner Tepenia** (~2083–2840s). Bo
 | **~2630–2640** | Amundsen Tower (Space Elevator at South Pole) completed — Tepenia's greatest achievement |
 | **2564–~2812** | Second Interwar Period — off-world evacuees build Phobos/Deimos infrastructure, Mars colonization, moving toward Venus |
 | **~2812 (mid-to-late)** | Long Night War (second anti-robot war) — destroys coastal Tepenian cities; Amundsen Tower deliberately destroyed; ends the Second Interwar Period |
-| **~2820s–2840s** | *Inner Tepenia* game present — Concordia is the last surviving Tepenian city, in the aftermath of the Long Night War |
+| **≈2822–2827** | *Inner Tepenia* game present — Concordia is the last surviving Tepenian city, in the aftermath of the Long Night War |
 | **~3000s–3100s** | ***Cryptograph Helix* series begins** — Silicon Valley tech giants control Mars; DNA Mafia forms; memes evolve toward sentience |
 
 ## How Inner Tepenia Leads Into Cryptograph Helix

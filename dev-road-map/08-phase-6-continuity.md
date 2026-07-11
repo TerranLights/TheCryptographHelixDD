@@ -33,7 +33,7 @@ Each item below is a moment in the novels that needs to be handled with care —
 
 ## Inner Tepenia Consistency Check
 
-Before finalizing any world-building element in the ~3000s Cryptograph Helix era, verify it doesn't contradict Inner Tepenia's established timeline (~2083–2840s). Key crossover points:
+Before finalizing any world-building element in the ~3000s Cryptograph Helix era, verify it doesn't contradict Inner Tepenia's established timeline (~2083–2827). Key crossover points:
 - The early solar system colonization referenced in Inner Tepenia must predate Cryptograph Helix's established colonies
 - "Outer Tepenia" as a term originates in the Cryptograph Helix era — it should not appear in Inner Tepenia materials
 - The Altay Nation (Hungarians + Mongolians + Kazakhs) in the Resistance has roots that Inner Tepenia may have laid groundwork for

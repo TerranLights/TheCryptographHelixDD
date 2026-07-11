@@ -22,4 +22,4 @@ Data encoding into DNA replaces binary computation. A "DNA Mafia" arises to prot
 
 ## Parent Universe
 
-This series is set within the context of **Inner Tepenia** (~2083–2840s), a separate story also in development. See `series-overview/universe-timeline.md` for cross-series continuity. Inner Tepenia GDD: https://github.com/TerranLights/InnerTepeniaGDD
+This series is set within the context of **Inner Tepenia** (~2083–2827), a separate story also in development. See `series-overview/universe-timeline.md` for cross-series continuity. Inner Tepenia GDD: https://github.com/TerranLights/InnerTepeniaGDD

@@ -8,7 +8,7 @@ The Cryptograph Helix is the sequel era to **Inner Tepenia** (~2083–2827). Bot
 
 | Year | Event |
 |---|---|
-| **2083** | Global nuclear war. First fully sentient robot (Kappa) created at U.R.U.K. off the Sovereign Republic of Hawaii |
+| **2083** | Global nuclear war. First fully sentient robot, **En.Ki.Du.** ("Enkidu"), created at U.R.U.K. off the Sovereign Republic of Hawaii. ("Kappa" is not a robot name — it's part of U.R.U.K.'s acronym, *Underwater Research Union: Kappa*.) |
 | **2318** | Jeju-do ruling (April 27) — robot DJ Gyeong-ja Yun's case against her Mafioso boss → robots granted full legal personhood |
 | **~2563–2564** | War of Upper Earth (first anti-robot war). Falkland Treaty (June 21, 2564) — all robots + human allies exiled to Antarctica → Federation of Tepenia |
 | **~2500s** | "Lemmy" enters common usage as the word for "cheers" (in-universe future slang) |

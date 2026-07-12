@@ -24,6 +24,9 @@ These require a deliberate call before downstream work can proceed. None can be 
 
 ## High Priority
 
+- [ ] **Audit all faction docs against the "No National Stereotypes" rule**
+  The parent Tepenian Universe Timeline repo established a binding rule (`Reference/No_National_Stereotypes.md`): a faction/place's real-world national origin is a locator detail only, never an explanation for its culture, conflict, or behavior. Confirmed 2026-07-12 that this applies to Cryptograph Helix, not just Inner Tepenia — meaning the Chinese/Russian/Korean/Brazilian Mafia overviews and the E-thots-by-nationality structure (all currently marked ✅ or partial in the completion matrix) need a deliberate review pass for places where national stereotype is used as explanatory logic (e.g. Russian Mafia's Techno-Primitivism framed as "Russian" in character). See `feedback-no-national-stereotypes` in memory.
+
 - [ ] **Books 2–6 — beat sheets**
   All seven books have `overview.md` + `volume-1/` + `volume-2/` folders, but Books 2–6 are stubs (see `dev-road-map/01-completion-matrix.md` for per-volume status). Each volume needs its beat sheet filled in (Inciting Incident, Act 1–3 beats, Mirror Moment, All Is Lost, climax). Start with Book 2's Volume 1 (`books/book-02-the-autonomy-allele/volume-1/structure/main story/Save the Cat.md`) to unblock the monomyth's second iteration.
 

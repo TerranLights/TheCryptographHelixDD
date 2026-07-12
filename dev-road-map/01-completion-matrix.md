@@ -13,6 +13,9 @@ Cross-phase progress at a glance. Update as work is completed.
 | `series-overview/universe-timeline.md` | ✅ Complete |
 | `series-overview/title-candidates.md` | ✅ Created — decisions pending |
 | `series-overview/faction-motivations.md` | ✅ Complete |
+| `series-overview/grand-percentage-structure.md` | ✅ Complete |
+| `series-overview/per-book_breakdown.md` | ✅ Complete — quick per-book seed notes |
+| `series-overview/book-spec-sheets.md` | ✅ Complete — full per-book guiding spec, extrapolated from per-book_breakdown.md |
 
 ## Factions
 

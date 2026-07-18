@@ -20,6 +20,9 @@ These require a deliberate call before downstream work can proceed. None can be 
 - [ ] **"Nearly 900 years" line — reconcile with fluid opening date**
   `series-overview/themes-and-structure.md`'s Philosophical Architecture section says robot personhood was settled "nearly 900 years before the story opens" (measuring from Jeju-do, 2318, or the Falkland Treaty, 2564). That figure only holds if Cryptograph Helix opens ~3200s; the series' actual opening date is officially fluid at ~3000s–3100s, where the true gap is roughly 600–800 years. Flagged 2026-07-11 — left as-is intentionally pending the opening-date decision. Revisit once the opening year firms up (either adjust the prose or let it justify locking to ~3200s).
 
+- [ ] **Resistance/Hungarian/Altay Nation culture — blocked on InnerTepeniaGDD Phase 3**
+  InnerTepeniaGDD's new "Neo-Races and Neo-Cultures" project (see `reference-neo-races-and-cultures` in memory) synthesizes each Tepenian city's culture fresh from circumstances rather than treating it as a continuation of its founders' real-world nation — and explicitly reserves a Phase 3 for "orbital / Cryptograph Helix era" populations. That principle directly conflicts with `factions/resistance/overview.md` and `societies/hungarians.md`, which frame the Resistance's present-day character as flowing from inherited Hungarian ethnic stubbornness. Flagged 2026-07-17 — user's call was to **wait for InnerTepeniaGDD's Phase 3 to actually be developed** before reworking this, not to do it independently now. Phase 3 was empty (`.gitkeep` only) as of 2026-07-17 — check back periodically.
+
 ---
 
 ## High Priority

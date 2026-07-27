@@ -42,3 +42,11 @@ A society file is foundation-level when it answers:
 ## Phase 1 is Complete When
 
 All four mafia factions, Earthtech, the Resistance, the Memes, and the E-Thots have full overviews. All 6 society files have at least a paragraph of substantive content per major heading.
+
+---
+
+## Untrack the Final-Text Folder
+
+**The actual conclusive, copyrightable manuscript prose for this series must never be tracked by this git repo.** This repo (`TheCryptographHelixDD`) is the design-document/outline layer only — fine to keep public. The real prose lives in `../official text/Book 1` through `Book 7`, a sibling folder one level up, deliberately kept outside this repo entirely rather than gitignored inside it. That's the current convention and the strongest version of "untracked" — don't move it in.
+
+If that ever changes (e.g. prose moves to a per-volume `text/` folder inside `books/book-XX/volume-Y/`), add the specific path to `.gitignore` *before* writing any real content into it — `.gitignore` already has defensive `text/` patterns as a fallback safety net, but don't rely on those alone; add an explicit entry the same way `CurrentNovelDocs` does per-novel. If prose is ever accidentally committed, it's not enough to just untrack it going forward — it also needs purging from git history (`git-filter-repo`, then force-push), since the goal is keeping it out of the public repo before copyright is filed, not just out of future commits.

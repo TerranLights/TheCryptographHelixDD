@@ -1,2 +1,19 @@
 # Ebook library — kept local only, too large for GitHub
 reference/ebooks/
+
+# ============================================================================
+# STANDING RULE: the actual conclusive, copyrightable manuscript prose for
+# this series lives entirely OUTSIDE this repo, in the sibling folder
+# `../official text/Book 1` through `Book 7` (i.e. one level up from this
+# repo, alongside it, NOT nested inside it). This repo is the design-
+# document/outline layer only (books/, characters/, plot/, etc.) -- fine to
+# keep public. Do not move "official text" into this repo, and do not add a
+# `text/` folder anywhere in here with real prose in it, without also adding
+# it below first. The defensive patterns below are a safety net in case that
+# convention ever changes -- see dev-road-map/03-phase-1-foundations.md,
+# section "Untrack the Final-Text Folder", and the equivalent convention in
+# the CurrentNovelDocs repo (TerranLights/CurrentNovelDocs).
+# ============================================================================
+text/
+**/text/
+official\ text/

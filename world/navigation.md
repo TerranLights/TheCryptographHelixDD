@@ -47,7 +47,7 @@ Because Regulus already sits so close to the Invariable Plane, the correction ne
 
 ### Plane 3 — The Third Plane
 
-The remaining coordinate plane, perpendicular to both Plane 1 and Plane 2. This perpendicularity is automatic — it is a structural property of any three mutually-perpendicular reference planes, not something separately imposed or measured. Its normal is **Axis 3**, lying within the Invariable Plane at exactly 90° from the Regulus Line. Axis 3 is not an independent choice: it falls out of Axis 1 and Axis 2 as their cross product, with no third star, no third sighting, and no third correction offset ever required.
+The remaining coordinate plane, perpendicular to both Plane 1 and Plane 2. This perpendicularity is automatic — it is a structural property of any three mutually-perpendicular reference planes, not something separately imposed or measured. Its normal is **Axis 3**, lying within the Invariable Plane at exactly 90° from the Regulus Line. Axis 3 is not an independent choice: it falls out of Axis 1 and Axis 2 as their cross product, with no third star, no third sighting, and no third correction offset ever required. Its handedness is fixed as **Axis 1 × Axis 2** (in that order) — see Directional Nomenclature, below, for why that specific order is the canonical one rather than the reverse.
 
 ## The Polaris Line: A Deliberately Disconnected Name
 
@@ -88,6 +88,38 @@ A full position in the System requires three numbers — the fundamental way it 
 3. **An angle out of the Invariable Plane** — analogous to latitude, measured from the Invariable Plane toward the Polaris Line (or away from it). (Working term: "Solar Latitude.")
 
 Structurally, this is an ordinary spherical coordinate system (r, θ, φ) centered on the Sun — the same basic shape as the equatorial coordinate system real astronomers already use for the whole sky (Right Ascension, Declination, distance), just re-centered from Earth to the Sun, re-founded on the Invariable Plane instead of Earth's equator, and anchored to a deliberately-chosen bright reference star instead of the abstract vernal equinox point real astronomy uses.
+
+## Directional Nomenclature — North/South/East/West/Sharp/Flat
+
+Earth's surface only ever needed two cardinal pairs (North/South, East/West) because it's a 2D problem. Space is 3D, so the System needs **three** orthogonal pairs, not two. Rather than inventing arbitrary new terms for the third pair, the developer proposed a body-orientation mnemonic to derive all three at once, exactly as originally specified:
+
+> Assume that you have your back to Regulus, and you're looking at the Sun, and your head is pointing in the general direction of Polaris.
+> 1. From your head/foot relation: **"North"** = toward the general direction of Polaris; **"South"** = opposite.
+> 2. From your hands relation: **"East"** = right hand; **"West"** = left hand.
+> 3. From your chest/back relation: **"Sharp"** = back (i.e., toward Regulus); **"Flat"** = chest (i.e., toward, and past, the Sun).
+
+### Why This Works, and What It Fixes
+
+Mapping the body orientation onto the axes: head ("North") = +Axis 1 (the Polaris Line); back ("Sharp") = +Axis 2 (the Regulus Line, which by definition points from the Sun toward Regulus); chest ("Flat") = −Axis 2 (facing the Sun means facing opposite the Regulus direction).
+
+That leaves the hands (East/West) to be derived, not assumed. Real-world geodesy has a fixed, standard answer for "which way is East, given a Forward direction and an Up direction": **East = Forward × Up**, in a standard right-handed East-North-Up frame (verified directly against a concrete Earth-Centered-Earth-Fixed coordinate example: at the point where the equator crosses the prime meridian, East, North, and Up align exactly with a standard right-handed X/Y/Z triple, confirming East × North = Up, and therefore North × Up = East).
+
+Substituting: Forward ("Flat") = −Axis 2, Up ("North") = Axis 1, so:
+
+**East = Forward × Up = (−Axis 2) × Axis 1 = Axis 1 × Axis 2**
+
+This is significant beyond just labeling directions: **Axis 3 had never been given a fixed handedness** — "the cross product of Axis 1 and Axis 2" is ambiguous, since Axis 1 × Axis 2 and Axis 2 × Axis 1 point in exactly opposite directions, and nothing before this had picked one over the other. This mnemonic resolves that ambiguity for good: **Axis 3 is defined as Axis 1 × Axis 2** (in that order), specifically so that East falls on the right hand under this body orientation. That definition is now canonical, not just a convenience for this section.
+
+### Final Mapping
+
+| Term | Axis | Direction |
+|---|---|---|
+| **North** | Axis 1 (Polaris Line) | + |
+| **South** | Axis 1 | − |
+| **East** | Axis 3 (derived, ≡ Axis 1 × Axis 2) | + |
+| **West** | Axis 3 | − |
+| **Sharp** | Axis 2 (Regulus Line) | + (toward Regulus) |
+| **Flat** | Axis 2 | − (toward and past the Sun) |
 
 ## Real-World Grounding
 

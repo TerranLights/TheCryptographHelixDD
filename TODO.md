@@ -105,6 +105,9 @@ These require a deliberate call before downstream work can proceed. None can be 
 - [ ] **Unsorted notes — review and redistribute**
   `reference/unsorted-notes.md` contains raw notes not yet placed into proper sections. Items like "time-cable reality," the metal band crisis, and the Anicetus arc need eventual homes. Process when a relevant section is being actively developed.
 
+- [ ] **Stale Navigational Almanac plot beat — needs a book**
+  A smuggling/trafficking run thrown off by an out-of-date TANA correction Almanac, with the gap between "official" and "actual" bearings driving the beat — see `reference/unsorted-notes.md` and `world/navigation.md`'s Institutional Maintenance section. User strongly wants this in the series somewhere; no book/placement decided yet. Best candidates are wherever illicit trafficking runs are already active — Books 3 and 6 both center Mafia/trafficking life, so either is a natural fit, but this isn't settled.
+
 - [ ] **Outer Tepenia 1 — GDD start**
   The Jovian Metasystem civilization that emerges at the end of Book 7 is the founding era of Outer Tepenia 1. Start a separate GDD repo when Cryptograph Helix's Book 7 ending is sufficiently developed to seed it. See `reference/continuity-guidelines.md`.
 

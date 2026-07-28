@@ -37,4 +37,6 @@ Raw world-building notes that haven't been placed into a proper section yet.
 
 - **"Time-cable reality"** — undeveloped concept; tag for later.
 
+- **A stale Navigational Almanac as a plot beat:** a smuggling run (or similar illicit trafficking route) gets thrown off because it relies on an out-of-date TANA correction-offset Almanac — the mismatch between the "official" bearing (per the frozen Polaris/Regulus Lines) and the "actual" bearing (per the current published correction) causes the disruption. User loves this idea and wants it implemented somewhere in the series — exact book/placement not yet decided. See `world/navigation.md`'s Institutional Maintenance section for the full mechanism this hangs off of.
+
 - **{{Check birthrates for various countries}}** — ongoing research note for demographic world-building.

@@ -83,6 +83,7 @@ Each book is a folder with `overview.md` + `volume-1/` + `volume-2/`. Each volum
 | `world/locations.md` | ✅ Complete — will expand |
 | `world/society.md` | ✅ Complete — will expand |
 | `world/outer-tepenia.md` | ✅ Complete |
+| `world/navigation.md` | ✅ Complete — 3D heliocentric coordinate system; naming/epoch decisions pending |
 
 ## Philosophy
 

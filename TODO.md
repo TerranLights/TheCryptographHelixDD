@@ -17,6 +17,9 @@ These require a deliberate call before downstream work can proceed. None can be 
 - [ ] **"Framejacking" — term ownership check**
   Currently understood to be Dennis E. Taylor's term. If confirmed, needs renaming before the series is public-facing. Blocks: `world/technology.md`, Russian Mafia overview, series pitch materials.
 
+- [ ] **Solar Positioning System — naming and founding epoch**
+  `world/navigation.md` specifies the full 3D heliocentric coordinate system (Polaris Line, Regulus Line, derived third axis) but leaves several names and one date as placeholders: the system's own name, the two coordinate terms ("Solar Longitude"/"Solar Latitude"), the name of the institution that maintains and republishes the precession correction tables, the distance unit used for the radial coordinate, and the founding epoch year the reference frame was originally fixed at (candidate window: sometime in the Second Interwar Period, 2564–~2812). None of these block using the system conceptually, but should be settled before it appears on the page.
+
 - [ ] **"Nearly 900 years" line — reconcile with fluid opening date**
   `series-overview/themes-and-structure.md`'s Philosophical Architecture section says robot personhood was settled "nearly 900 years before the story opens" (measuring from Jeju-do, 2318, or the Falkland Treaty, 2564). That figure only holds if Cryptograph Helix opens ~3200s; the series' actual opening date is officially fluid at ~3000s–3100s, where the true gap is roughly 600–800 years. Flagged 2026-07-11 — left as-is intentionally pending the opening-date decision. Revisit once the opening year firms up (either adjust the prose or let it justify locking to ~3200s).
 

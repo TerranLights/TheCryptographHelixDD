@@ -23,15 +23,21 @@ These require a deliberate call before downstream work can proceed. None can be 
 - [ ] **"Nearly 900 years" line — reconcile with fluid opening date**
   `series-overview/themes-and-structure.md`'s Philosophical Architecture section says robot personhood was settled "nearly 900 years before the story opens" (measuring from Jeju-do, 2318, or the Falkland Treaty, 2564). That figure only holds if Cryptograph Helix opens ~3200s; the series' actual opening date is officially fluid at ~3000s–3100s, where the true gap is roughly 600–800 years. Flagged 2026-07-11 — left as-is intentionally pending the opening-date decision. Revisit once the opening year firms up (either adjust the prose or let it justify locking to ~3200s).
 
-- [ ] **All nation-derived factions — blocked on InnerTepeniaGDD Phase 3 (four-stage neo-culture rework)**
-  InnerTepeniaGDD's new "Neo-Races and Neo-Cultures" project (see `reference-neo-races-and-cultures` in memory) synthesizes each Tepenian city's culture fresh from circumstances rather than treating it as a continuation of its founders' real-world nation, and explicitly reserves a Phase 3 for "orbital / Cryptograph Helix era" populations. This is a **four-stage lineage problem**, corrected by the user 2026-07-27 from an earlier, oversimplified two-generation framing: (1) real-world nation, historical/locator fact only, pre-2564 → (2) a specific Tepenian city's neo-culture, ~250 years (Phase 1c/2, already complete for all 35 cities) → (3) a further-composite post-Long-Night-War orbital/Mars neo-culture, another ~200–300 years — the series opens "a couple hundred years after" the Long Night War (2812), which is at least 6 generations at a standard ~30-year generational span; this stage is InnerTepeniaGDD's own Phase 3, still empty as of last check → (4) **the Mafia's own specific culture**, which doesn't exist yet when Book 1 opens and instead coalesces *within the story itself* over Books 1–3 (per `plot/parallel-plots/mafia.md`), out of whatever Stage 3 turns out to be. Stage 4 is never handed to us by Phase 3 — it's this series' own content to author once Stage 3 exists to build from, regardless of what Phase 3 eventually says. Nothing in Cryptograph Helix should still be named after the original real-world nation by the time the novels open — e.g. the "Chinese Mafia" should really descend from Zhongshan (the Chinese-founded, multinational, human Tepenian city — not Kunlun, which is Sinian but 100% robot) and be renamed accordingly (something like "Zhongshanese"), and likewise for the Russian (candidate ancestor: Mirny), Korean, and Brazilian Mafias, and for the Resistance/Hungarian/Altay Nation faction. A template for building out this lineage exists at `factions/mafias/z-template/`. User's call: **wait for InnerTepeniaGDD's Phase 3 to actually be developed** before reworking Stages 1–3, not to do it independently now. Phase 3 was empty (`.gitkeep` only) as of 2026-07-17 — check back periodically.
+- [ ] **All nation-derived factions — blocked on InnerTepeniaGDD Phase 3 (cross-mingled "neo-neo-race" model, confirmed 2026-07-27)**
+  InnerTepeniaGDD's new "Neo-Races and Neo-Cultures" project (see `reference-neo-races-and-cultures` in memory) synthesizes each Tepenian city's own new composite people, **named for the city itself** (Zhongshanese, Shirayukese, Sinheungese, Rotheran, Marambian, Belgranian, Sanaian, etc.) — never for whichever real-world nation happened to be demographically largest there. A city's national demographic breakdown is raw *input* to that synthesis, never the naming or identity itself. Two earlier framings of this problem (a "two-generation" model, then a "which nation is Primary where" search treating Russia/Brazil's lack of a dominant city as a problem) were both wrong and retracted — both were still nation-centric thinking, which the whole neo-race framework exists to move past.
+
+  **The confirmed model:** (1) real-world nations, pre-2564 — historical input only → (2) Tepenian exile-era city neo-races, ~250 years to 2812, named per-city (Phase 1c cataloging complete for all 35 cities; Phase 2 naming/synthesis mostly not done) → (3) off-world diaspora, ~5–8 generations from the Long Night War (2812) to roughly Book 3's era — these city-neo-races don't stay put as discrete communities; they subdivide and **cross-mingle with each other** across orbital infrastructure and Mars cities → (4) **"neo-neo-races"** — new, second-order composite peoples from that cross-mingling, not reducible to any single Antarctic ancestor city — this is the level the Mafias are actually built from → (5) the Mafia's own specific culture, which per `plot/parallel-plots/mafia.md` doesn't exist when Book 1 opens and instead coalesces within the story itself over Books 1–3.
+
+  This means the real task isn't "trace each Mafia to one city and rename it [City]ese" — it's modeling which specific combination of city-populations plausibly cross-mingled together in a given orbital/Martian setting, and synthesizing what new neo-neo-race that blend produces. That's genuinely new creative work, likely beyond what InnerTepeniaGDD's Phase 3 will hand us ready-made even once it exists (Phase 3 isn't scoped yet, and sounds oriented toward the orbital population generally, not toward modeling specific cross-city blends). A build template exists at `factions/mafias/z-template/` but its current "Lineage" section still describes the retracted single-city model and needs updating to match. User's call: **wait for InnerTepeniaGDD's Phase 3 to actually be developed** before reworking any of this, not to do it independently now. Phase 3 was empty (`.gitkeep` only) as of last check.
+
+  Also confirmed along the way (still factually useful, kept in memory): Zhongshan is the *only* Tepenian city where the founding nation (China) stayed demographically Primary throughout, unbroken — everywhere else shows demographic displacement from the founding nation. "Soyuz" (previously on record as a Russian city destroyed in the Long Night War) is confirmed defunct/untraced in current canon — don't use that name without re-verifying first. A local clone of InnerTepeniaGDD exists at `/home/kuroskalacs/Documents/Doll-Fi/media/games/Inner Tepenia/InnerTepeniaGDD/` — check that on disk before making web calls.
 
 ---
 
 ## High Priority
 
 - [ ] **Audit E-thots-by-nationality structure against the "No National Stereotypes" rule**
-  The parent Tepenian Universe Timeline repo established a binding rule (`Reference/No_National_Stereotypes.md`): a faction/place's real-world national origin is a locator detail only, never an explanation for its culture, conflict, or behavior. Confirmed 2026-07-12 that this applies to Cryptograph Helix, not just Inner Tepenia. The Mafia factions and the Resistance have their own, deeper version of this issue tracked separately above under Decision Required (two-generation neo-culture lineage, blocked on InnerTepeniaGDD Phase 3) — this item is scoped to the E-thots-by-nationality structure specifically, which needs its own review pass for places where national stereotype is used as explanatory logic. See `feedback-no-national-stereotypes` in memory.
+  The parent Tepenian Universe Timeline repo established a binding rule (`Reference/No_National_Stereotypes.md`): a faction/place's real-world national origin is a locator detail only, never an explanation for its culture, conflict, or behavior. Confirmed 2026-07-12 that this applies to Cryptograph Helix, not just Inner Tepenia. The Mafia factions and the Resistance have their own, deeper version of this issue tracked separately above under Decision Required (cross-mingled multi-city "neo-neo-race" lineage, blocked on InnerTepeniaGDD Phase 3) — this item is scoped to the E-thots-by-nationality structure specifically, which needs its own review pass for places where national stereotype is used as explanatory logic. See `feedback-no-national-stereotypes` in memory.
 
 - [ ] **Books 2–6 — beat sheets**
   All seven books have `overview.md` + `volume-1/` + `volume-2/` folders, but Books 2–6 are stubs (see `dev-road-map/01-completion-matrix.md` for per-volume status). Each volume needs its beat sheet filled in (Inciting Incident, Act 1–3 beats, Mirror Moment, All Is Lost, climax). Start with Book 2's Volume 1 (`books/book-02-the-autonomy-allele/volume-1/structure/main story/Save the Cat.md`) to unblock the monomyth's second iteration.
@@ -105,14 +111,35 @@ These require a deliberate call before downstream work can proceed. None can be 
 - [ ] **Unsorted notes — review and redistribute**
   `reference/unsorted-notes.md` contains raw notes not yet placed into proper sections. Items like "time-cable reality," the metal band crisis, and the Anicetus arc need eventual homes. Process when a relevant section is being actively developed.
 
-- [ ] **Stale Navigational Almanac plot beat — needs a book**
-  A smuggling/trafficking run thrown off by an out-of-date TANA correction Almanac, with the gap between "official" and "actual" bearings driving the beat — see `reference/unsorted-notes.md` and `world/navigation.md`'s Institutional Maintenance section. User strongly wants this in the series somewhere; no book/placement decided yet. Best candidates are wherever illicit trafficking runs are already active — Books 3 and 6 both center Mafia/trafficking life, so either is a natural fit, but this isn't settled.
+- [ ] **Stale Navigational Almanac plot beat — mechanism/character resolved 2026-08-10, book placement still open (Book 6 or Book 7)**
+  Mechanism unchanged from the original idea (a stale correction-offset
+  Almanac creating a gap between "official" and "actual" bearings — see
+  `world/navigation.md`'s Institutional Maintenance section), now given a
+  specific trigger and a delivering character: a minor new character — a
+  TANA Space Traffic Controller, see `characters/tana_controller.md` — who
+  notices a lone ship's bearing doesn't match the official charts, remarks
+  "Oh, that's odd. Just one ship," and moves on. **Cross-project tie-in:**
+  that ship belongs to *The Not-Departure series* (a separate Doll-Fi
+  audio-drama project, not a CH subplot), set concurrently with whichever
+  book this lands in — Doc's ship, en route to Saturn, shortly to be
+  destroyed in "dead space." **Book 6 vs. Book 7 — not yet decided.** Book
+  6 has a specific advantage worth weighing (open Mafia/Earthtech warfare,
+  Earthtech still fully active pre-Book-7-annihilation, matching what
+  Not-Departure's own antagonist needs), but this is a consideration, not a
+  decision — both remain live candidates, same as the original entry. See
+  that project's `Tepenian_Reinterpretation.md` §1 and
+  `structure/Dev-Road-Map/02-Blocking-Decisions.md` for the other side of
+  this connection. Exact chapter placement, once the book is chosen, still
+  TBD either way.
 
 - [ ] **Outer Tepenia 1 — GDD start**
   The Jovian Metasystem civilization that emerges at the end of Book 7 is the founding era of Outer Tepenia 1. Start a separate GDD repo when Cryptograph Helix's Book 7 ending is sufficiently developed to seed it. See `reference/continuity-guidelines.md`.
 
 - [ ] **Outer Tepenia 2 and New Centauri — GDD starts**
   Further out. Begin only after Outer Tepenia 1 is underway.
+
+- [ ] **Trace the Fused Beat Structure bridge in the knowledge graph**
+  `/graphify` built a full knowledge graph of this repo (`graphify-out/graph.json`, 2026-08-24). The highest-betweenness bridge node is "Fused Snyder/Bell/Truby/Campbell Beat Structure" (`reference/story-structure-definitions.md`), connecting the Books 1-2 community to the World & Continuity community. Worth tracing with `graphify query` to see whether that's a meaningful structural link or just an artifact of every Craft Reference file pointing back to the same shared definition.
 
 ---
 

@@ -31,7 +31,7 @@ Cross-phase progress at a glance. Update as work is completed.
 | Colombian E-Thot | ✅ | ✅ | Name TBD |
 | Resistance | ✅ | ⬜ Empty | |
 
-`factions/mafias/z-template/` — a reusable build template (README + overview + 48-laws) capturing the four-stage neo-culture lineage and the No National Stereotypes rule, for use once InnerTepeniaGDD's Phase 3 unblocks the Mafia/Resistance rework.
+`factions/mafias/z-template/` — a reusable build template (README + overview + 48-laws) capturing the cross-mingled multi-city "neo-neo-race" lineage model and the No National Stereotypes rule, for use once InnerTepeniaGDD's Phase 3 unblocks the Mafia/Resistance rework.
 
 ## Characters
 

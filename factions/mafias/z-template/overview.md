@@ -1,13 +1,16 @@
 # [Mafia Name] Mafia — Overview
 
-## Lineage — Four-Stage Neo-Culture
+## Lineage — Cross-Mingled Neo-Neo-Race Model
 
-*Stage 3 is blocked on InnerTepeniaGDD Phase 3 — see `reference-neo-races-and-cultures` in memory. Stage 4 is never handed to us by Phase 3 — it's this series' own content to author, built on top of whatever Stage 3 turns out to be. Do not fill in Stages 1–3 beyond placeholders until Phase 3 has actual content; Stage 4 can be drafted once Stage 3 exists to build it from.*
+*Stage 3 is blocked on InnerTepeniaGDD Phase 3 — see `reference-neo-races-and-cultures` in memory. Stages 4–5 are never handed to us by Phase 3 — they're this series' own creative work, built on top of whatever Stage 3 turns out to be. Do not fill in Stages 1–3 beyond placeholders until Phase 3 has actual content.*
 
-1. **Real-world nation of origin** (pre-2564; historical/locator fact only — never an explanation for present-day culture or behavior): TBD
-2. **Tepenian exile-era neo-culture** (2564–2812, ~250 years — from the completed Phase 1c/2 neo-race catalog): TBD — candidate ancestor city: [city name]
-3. **Post-Long-Night-War orbital/Mars neo-culture** (2812 → Book 1's opening, ~200–300 more years — the general off-world population's culture at the moment the series begins): TBD, pending InnerTepeniaGDD Phase 3
-4. **The Mafia's own culture** (a specific criminal/protective organization that coalesces *within the story*, over Books 1–3, out of Stage 3's general population — not identical to it): TBD — this is Cryptograph Helix's own content to develop once Stage 3 exists, not something Phase 3 will supply directly
+**Important — do not skip this:** a Mafia's identity is not "trace it to one ancestor city and rename it [City]ese." Tepenian city-neo-races (Zhongshanese, Sinheungese, Rotheran, etc. — named for the city, never for whichever nation was demographically largest there) don't stay put as discrete communities once they reach orbital infrastructure and Mars — over the ~5–8 generations between the Long Night War and the story's opening, they subdivide and cross-mingle with *each other*. The Mafias are built from the resulting second-order blends ("neo-neo-races"), not from any single city's population.
+
+1. **Real-world nations of origin** (pre-2564; historical/locator input only — never a naming basis, never an explanation for present-day culture or behavior): TBD
+2. **Contributing Tepenian city-neo-races** (2564–2812, ~250 years — one or more cities from the completed Phase 1c/2 catalog, each already its own place-named neo-race): TBD — candidate cities: [list]
+3. **Off-world diaspora and cross-mingling** (2812 → roughly Book 3's era, ~5–8 generations — which of the candidate cities' populations plausibly ended up sharing the same orbital stations, ships, or Mars settlements): TBD, pending InnerTepeniaGDD Phase 3 for the raw Stage-2/3 material
+4. **The resulting neo-neo-race** (the new composite people this specific cross-mingling produces — this faction's actual identity): TBD — ours to synthesize once Stage 3 has material to work from
+5. **The Mafia's own culture** (a specific criminal/protective organization that coalesces *within the story*, over Books 1–3, out of Stage 4's neo-neo-race — not identical to it): TBD
 
 ## Identity
 

@@ -23,6 +23,8 @@ The Cryptograph Helix is the sequel era to **Inner Tepenia** (~2083–2827). Bot
 **The off-world evacuees → the Solar System civilization of the 3000s–3100s**
 The people who escaped Tepenia via Amundsen Tower built orbital stations, Phobos/Deimos infrastructure, and Mars colonization. By the Cryptograph Helix era, their descendants form the solar system civilization — including the Martian colonies with Hungarian city names.
 
+> **Their founding trauma is documented at `world/orbital-origins.md`.** Orbit *watched* the Long Night War and was helpless to intervene — witnessing its progenitive (or sister) civilization die without being able to reach it. That file also records the pre-2812 archive inheritance (orbit received Arcanet backups carrying salvaged Upper Earth and pre-war human internet data, so the solar civilization did not start from cultural scratch), and why this population are **witnesses rather than survivors** — a different wound from the one surface Tepenians carry, producing a different people. Handed off from the Inner Tepenia GDD repo, 2026-08-29.
+
 **Upper Earth powers → Earthtech**
 The anti-robot Upper Earth nations that waged both anti-robot wars evolve over roughly 200–300 years into the Silicon Valley tech-giant government of the Cryptograph Helix era. The surveillance-state tendencies are inherited.
 
